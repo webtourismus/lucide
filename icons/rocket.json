@@ -1,0 +1,14 @@
+{
+  "$schema": "../icon.schema.json",
+  "tags": [
+    "release",
+    "boost",
+    "launch",
+    "space",
+    "version"
+  ],
+  "categories": [
+    "gaming",
+    "development"
+  ]
+}

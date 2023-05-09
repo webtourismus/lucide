@@ -1,0 +1,10 @@
+{
+  "$schema": "../icon.schema.json",
+  "tags": [
+    "barcode"
+  ],
+  "categories": [
+    "development",
+    "social"
+  ]
+}

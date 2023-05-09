@@ -1,0 +1,17 @@
+{
+  "$schema": "../icon.schema.json",
+  "tags": [
+    "time",
+    "redo",
+    "undo",
+    "rewind",
+    "timeline",
+    "version",
+    "time machine",
+    "backup"
+  ],
+  "categories": [
+    "arrows",
+    "time"
+  ]
+}

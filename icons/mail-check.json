@@ -1,0 +1,20 @@
+{
+  "$schema": "../icon.schema.json",
+  "tags": [
+    "email",
+    "message",
+    "letter",
+    "subscribe",
+    "delivered",
+    "success",
+    "read",
+    "done",
+    "todo",
+    "tick",
+    "complete",
+    "task"
+  ],
+  "categories": [
+    "mail"
+  ]
+}

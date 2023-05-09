@@ -1,0 +1,14 @@
+{
+  "$schema": "../icon.schema.json",
+  "tags": [
+    "phone",
+    "cellphone",
+    "device",
+    "power",
+    "screen"
+  ],
+  "categories": [
+    "connectivity",
+    "devices"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "../icon.schema.json",
+  "tags": [
+    "patch",
+    "difference",
+    "plus",
+    "minus",
+    "plus-minus",
+    "maths"
+  ],
+  "categories": [
+    "development",
+    "files"
+  ]
+}

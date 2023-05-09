@@ -1,0 +1,15 @@
+{
+  "$schema": "../icon.schema.json",
+  "tags": [
+    "design",
+    "element",
+    "group",
+    "module",
+    "part",
+    "symbol"
+  ],
+  "categories": [
+    "design",
+    "development"
+  ]
+}

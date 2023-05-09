@@ -1,0 +1,16 @@
+{
+  "$schema": "../icon.schema.json",
+  "tags": [
+    "arrow",
+    "caret",
+    "keyboard",
+    "key",
+    "mac",
+    "control",
+    "ctrl",
+    "button"
+  ],
+  "categories": [
+    "arrows"
+  ]
+}

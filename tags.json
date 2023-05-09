@@ -21,10 +21,16 @@
   "airplay": [
     "stream",
     "cast",
-    "mirroring"
+    "mirroring",
+    "screen",
+    "monitor"
   ],
   "alarm-check": [
-    "done"
+    "done",
+    "todo",
+    "tick",
+    "complete",
+    "task"
   ],
   "alarm-clock": [
     "morning"
@@ -46,17 +52,20 @@
   "alert-circle": [
     "warning",
     "alert",
-    "danger"
+    "danger",
+    "exclamation mark"
   ],
   "alert-octagon": [
     "warning",
     "alert",
-    "danger"
+    "danger",
+    "exclamation mark"
   ],
   "alert-triangle": [
     "warning",
     "alert",
-    "danger"
+    "danger",
+    "exclamation mark"
   ],
   "align-center": [
     "text",
@@ -141,12 +150,15 @@
   "align-justify": [
     "text",
     "alignment",
-    "justified"
+    "justified",
+    "menu",
+    "list"
   ],
   "align-left": [
     "text",
     "alignment",
-    "left"
+    "left",
+    "list"
   ],
   "align-right": [
     "text",
@@ -244,6 +256,10 @@
     "camera",
     "photo"
   ],
+  "app-window": [
+    "application",
+    "executable"
+  ],
   "apple": [
     "fruit",
     "food"
@@ -270,34 +286,149 @@
   "arrow-big-down": [
     "key"
   ],
+  "arrow-big-down-dash": [
+    "key",
+    "download"
+  ],
   "arrow-big-left": [
-    "key"
+    "key",
+    "back"
+  ],
+  "arrow-big-left-dash": [
+    "key",
+    "back"
   ],
   "arrow-big-right": [
     "key",
     "forward"
   ],
-  "arrow-big-up": [
+  "arrow-big-right-dash": [
     "key",
     "forward"
+  ],
+  "arrow-big-up": [
+    "keyboard",
+    "key",
+    "forward",
+    "shift",
+    "mac",
+    "button"
+  ],
+  "arrow-big-up-dash": [
+    "keyboard",
+    "key",
+    "forward",
+    "caps lock",
+    "capitals",
+    "mac",
+    "button"
   ],
   "arrow-down": [
     "direction"
   ],
+  "arrow-down-0-1": [
+    "arrow",
+    "filter",
+    "sort",
+    "ascending",
+    "numerical"
+  ],
+  "arrow-down-1-0": [
+    "arrow",
+    "filter",
+    "sort",
+    "descending",
+    "numerical"
+  ],
+  "arrow-down-a-z": [
+    "arrow",
+    "filter",
+    "sort",
+    "ascending",
+    "alphabetical"
+  ],
   "arrow-down-circle": [
     "direction"
+  ],
+  "arrow-down-from-line": [
+    "direction",
+    "download",
+    "expand",
+    "fold",
+    "vertical"
   ],
   "arrow-down-left": [
     "direction"
   ],
+  "arrow-down-left-from-circle": [
+    "direction"
+  ],
+  "arrow-down-narrow-wide": [
+    "arrow",
+    "filter",
+    "sort",
+    "ascending"
+  ],
   "arrow-down-right": [
     "direction"
+  ],
+  "arrow-down-right-from-circle": [
+    "direction"
+  ],
+  "arrow-down-square": [
+    "direction"
+  ],
+  "arrow-down-to-dot": [
+    "direction",
+    "step",
+    "into"
+  ],
+  "arrow-down-to-line": [
+    "direction",
+    "download",
+    "git",
+    "version control",
+    "pull",
+    "collapse",
+    "fold",
+    "vertical"
+  ],
+  "arrow-down-up": [
+    "bidirectional",
+    "direction",
+    "swap",
+    "switch",
+    "network",
+    "mobile data",
+    "internet",
+    "sort",
+    "reorder",
+    "move"
+  ],
+  "arrow-down-wide-narrow": [
+    "arrow",
+    "filter",
+    "sort",
+    "descending"
+  ],
+  "arrow-down-z-a": [
+    "arrow",
+    "filter",
+    "sort",
+    "descending",
+    "alphabetical"
   ],
   "arrow-left": [
     "direction"
   ],
   "arrow-left-circle": [
     "direction"
+  ],
+  "arrow-left-from-line": [
+    "direction",
+    "expand",
+    "fold",
+    "horizontal"
   ],
   "arrow-left-right": [
     "bidirectional",
@@ -308,14 +439,75 @@
     "reorder",
     "move"
   ],
+  "arrow-left-square": [
+    "direction"
+  ],
+  "arrow-left-to-line": [
+    "direction",
+    "collapse",
+    "fold",
+    "horizontal"
+  ],
   "arrow-right": [
     "direction"
   ],
   "arrow-right-circle": [
     "direction"
   ],
+  "arrow-right-from-line": [
+    "direction",
+    "export",
+    "expand",
+    "fold",
+    "horizontal"
+  ],
+  "arrow-right-left": [
+    "bidirectional",
+    "direction",
+    "swap",
+    "switch",
+    "transaction",
+    "reorder",
+    "move"
+  ],
+  "arrow-right-square": [
+    "direction"
+  ],
+  "arrow-right-to-line": [
+    "keyboard",
+    "key",
+    "tab",
+    "mac",
+    "button",
+    "indent",
+    "direction",
+    "collapse",
+    "fold",
+    "horizontal"
+  ],
   "arrow-up": [
     "direction"
+  ],
+  "arrow-up-0-1": [
+    "arrow",
+    "filter",
+    "sort",
+    "ascending",
+    "numerical"
+  ],
+  "arrow-up-1-0": [
+    "arrow",
+    "filter",
+    "sort",
+    "descending",
+    "numerical"
+  ],
+  "arrow-up-a-z": [
+    "arrow",
+    "filter",
+    "sort",
+    "ascending",
+    "alphabetical"
   ],
   "arrow-up-circle": [
     "direction"
@@ -328,14 +520,69 @@
     "network",
     "mobile data",
     "internet",
+    "sort",
     "reorder",
     "move"
+  ],
+  "arrow-up-from-dot": [
+    "direction",
+    "step",
+    "out"
+  ],
+  "arrow-up-from-line": [
+    "direction",
+    "upload",
+    "git",
+    "version control",
+    "push",
+    "expand",
+    "fold",
+    "vertical"
   ],
   "arrow-up-left": [
     "direction"
   ],
+  "arrow-up-left-from-circle": [
+    "direction",
+    "keyboard",
+    "key",
+    "escape",
+    "button"
+  ],
+  "arrow-up-narrow-wide": [
+    "arrow",
+    "filter",
+    "sort",
+    "ascending"
+  ],
   "arrow-up-right": [
     "direction"
+  ],
+  "arrow-up-right-from-circle": [
+    "direction"
+  ],
+  "arrow-up-square": [
+    "direction"
+  ],
+  "arrow-up-to-line": [
+    "direction",
+    "upload",
+    "collapse",
+    "fold",
+    "vertical"
+  ],
+  "arrow-up-wide-narrow": [
+    "arrow",
+    "filter",
+    "sort",
+    "descending"
+  ],
+  "arrow-up-z-a": [
+    "arrow",
+    "filter",
+    "sort",
+    "descending",
+    "alphabetical"
   ],
   "asterisk": [
     "reference"
@@ -345,6 +592,14 @@
     "at",
     "email",
     "message"
+  ],
+  "atom": [
+    "atomic",
+    "nuclear",
+    "physics",
+    "particle",
+    "element",
+    "molecule"
   ],
   "award": [
     "achievement",
@@ -373,10 +628,20 @@
   "baggage-claim": [
     "baggage",
     "luggage",
-    "suitcase",
     "travel",
     "cart",
-    "trolley"
+    "trolley",
+    "suitcase"
+  ],
+  "ban": [
+    "cancel",
+    "no",
+    "stop",
+    "forbidden",
+    "prohibited",
+    "error",
+    "circle",
+    "slash"
   ],
   "banana": [
     "fruit",
@@ -425,26 +690,47 @@
   ],
   "battery": [
     "power",
-    "electricity"
+    "electricity",
+    "accumulator",
+    "charge"
   ],
   "battery-charging": [
     "power",
-    "electricity"
+    "electricity",
+    "accumulator",
+    "charge"
   ],
   "battery-full": [
     "power",
-    "electricity"
+    "electricity",
+    "accumulator",
+    "charge"
   ],
   "battery-low": [
     "power",
-    "electricity"
+    "electricity",
+    "accumulator",
+    "charge"
   ],
   "battery-medium": [
     "power",
-    "electricity"
+    "electricity",
+    "accumulator",
+    "charge"
+  ],
+  "battery-warning": [
+    "power",
+    "electricity",
+    "accumulator",
+    "charge",
+    "exclamation mark"
   ],
   "beaker": [
-    "cup"
+    "cup",
+    "lab",
+    "chemistry",
+    "experiment",
+    "test"
   ],
   "bean": [
     "legume",
@@ -477,6 +763,16 @@
     "hotel",
     "furniture"
   ],
+  "beef": [
+    "food",
+    "dish",
+    "restaurant",
+    "course",
+    "meal",
+    "meat",
+    "bbq",
+    "steak"
+  ],
   "beer": [
     "alcohol",
     "bar",
@@ -489,6 +785,13 @@
     "notification",
     "sound",
     "reminder"
+  ],
+  "bell-dot": [
+    "alarm",
+    "notification",
+    "sound",
+    "reminder",
+    "unread"
   ],
   "bell-minus": [
     "alarm",
@@ -531,10 +834,35 @@
     "zero",
     "one"
   ],
+  "biohazard": [
+    "fallout",
+    "waste",
+    "biology",
+    "chemistry",
+    "chemical",
+    "element"
+  ],
+  "bird": [
+    "peace",
+    "freedom",
+    "wing",
+    "avian"
+  ],
   "bitcoin": [
     "currency",
     "money",
     "payment"
+  ],
+  "blinds": [
+    "shades",
+    "screen",
+    "curtain",
+    "shutter",
+    "roller blind",
+    "window",
+    "lighting",
+    "household",
+    "home"
   ],
   "bluetooth": [
     "wireless"
@@ -577,6 +905,56 @@
     "magazine",
     "library"
   ],
+  "book-copy": [
+    "read",
+    "dictionary",
+    "booklet",
+    "library",
+    "code",
+    "version control",
+    "git",
+    "repository",
+    "clone"
+  ],
+  "book-down": [
+    "code",
+    "version control",
+    "git",
+    "repository",
+    "pull"
+  ],
+  "book-key": [
+    "code",
+    "version control",
+    "git",
+    "repository",
+    "private"
+  ],
+  "book-lock": [
+    "code",
+    "version control",
+    "git",
+    "repository",
+    "private"
+  ],
+  "book-marked": [
+    "read",
+    "dictionary",
+    "booklet",
+    "library",
+    "code",
+    "version control",
+    "git",
+    "repository"
+  ],
+  "book-minus": [
+    "code",
+    "version control",
+    "git",
+    "repository",
+    "remove",
+    "delete"
+  ],
   "book-open": [
     "read",
     "library"
@@ -584,7 +962,42 @@
   "book-open-check": [
     "read",
     "library",
-    "plain language"
+    "plain language",
+    "done",
+    "todo",
+    "tick",
+    "complete",
+    "task"
+  ],
+  "book-plus": [
+    "code",
+    "version control",
+    "git",
+    "repository",
+    "add"
+  ],
+  "book-template": [
+    "read",
+    "code",
+    "version control",
+    "git",
+    "repository",
+    "dashed"
+  ],
+  "book-up": [
+    "code",
+    "version control",
+    "git",
+    "repository",
+    "push"
+  ],
+  "book-x": [
+    "code",
+    "version control",
+    "git",
+    "repository",
+    "remove",
+    "delete"
   ],
   "bookmark": [
     "read",
@@ -600,7 +1013,8 @@
     "add"
   ],
   "bot": [
-    "robot"
+    "robot",
+    "ai"
   ],
   "box": [
     "cube",
@@ -621,6 +1035,48 @@
     "units",
     "collection",
     "cluster"
+  ],
+  "braces": [
+    "json",
+    "code",
+    "token",
+    "curly brackets",
+    "data"
+  ],
+  "brackets": [
+    "code",
+    "token",
+    "array",
+    "list",
+    "square"
+  ],
+  "brain": [
+    "medical",
+    "mind",
+    "intellect",
+    "cerebral",
+    "consciousness",
+    "genius",
+    "artificial intelligence",
+    "ai"
+  ],
+  "brain-circuit": [
+    "mind",
+    "intellect",
+    "artificial intelligence",
+    "ai",
+    "deep learning",
+    "machine learning",
+    "computing"
+  ],
+  "brain-cog": [
+    "mind",
+    "intellect",
+    "artificial intelligence",
+    "ai",
+    "deep learning",
+    "machine learning",
+    "computing"
   ],
   "briefcase": [
     "work",
@@ -668,24 +1124,35 @@
   ],
   "calendar": [
     "date",
-    "time",
-    "event",
     "birthdate",
-    "birthday"
+    "birthday",
+    "time",
+    "event"
   ],
   "calendar-check": [
     "date",
     "time",
     "event",
     "confirm",
-    "subscribe"
+    "subscribe",
+    "schedule",
+    "done",
+    "todo",
+    "tick",
+    "complete",
+    "task"
   ],
   "calendar-check-2": [
     "date",
     "time",
     "event",
     "confirm",
-    "subscribe"
+    "subscribe",
+    "done",
+    "todo",
+    "tick",
+    "complete",
+    "task"
   ],
   "calendar-clock": [
     "date",
@@ -788,9 +1255,38 @@
     "food",
     "eat"
   ],
+  "case-lower": [
+    "text",
+    "letters",
+    "characters",
+    "font",
+    "typography"
+  ],
+  "case-sensitive": [
+    "text",
+    "letters",
+    "characters",
+    "font",
+    "typography"
+  ],
+  "case-upper": [
+    "text",
+    "letters",
+    "characters",
+    "font",
+    "typography"
+  ],
   "cast": [
     "chromecast",
-    "airplay"
+    "airplay",
+    "screen"
+  ],
+  "castle": [
+    "fortress",
+    "stronghold",
+    "palace",
+    "chateau",
+    "building"
   ],
   "cat": [
     "animal",
@@ -799,21 +1295,41 @@
     "feline"
   ],
   "check": [
-    "done"
+    "done",
+    "todo",
+    "tick",
+    "complete",
+    "task"
   ],
   "check-check": [
     "done",
     "received",
-    "double"
+    "double",
+    "todo",
+    "tick",
+    "complete",
+    "task"
   ],
   "check-circle": [
-    "done"
+    "done",
+    "todo",
+    "tick",
+    "complete",
+    "task"
   ],
   "check-circle-2": [
-    "done"
+    "done",
+    "todo",
+    "tick",
+    "complete",
+    "task"
   ],
   "check-square": [
-    "done"
+    "done",
+    "todo",
+    "tick",
+    "complete",
+    "task"
   ],
   "chef-hat": [
     "cooking",
@@ -826,6 +1342,9 @@
     "food"
   ],
   "chevron-down": [
+    "arrow"
+  ],
+  "chevron-down-square": [
     "arrow"
   ],
   "chevron-first": [
@@ -842,10 +1361,36 @@
   "chevron-left": [
     "arrow"
   ],
-  "chevron-right": [
+  "chevron-left-square": [
     "arrow"
   ],
+  "chevron-right": [
+    "arrow",
+    "code",
+    "command line",
+    "terminal",
+    "prompt",
+    "shell"
+  ],
+  "chevron-right-square": [
+    "code",
+    "command line",
+    "terminal",
+    "prompt",
+    "shell",
+    "console"
+  ],
   "chevron-up": [
+    "arrow",
+    "caret",
+    "keyboard",
+    "key",
+    "mac",
+    "control",
+    "ctrl",
+    "button"
+  ],
+  "chevron-up-square": [
     "arrow"
   ],
   "chevrons-down": [
@@ -888,6 +1433,10 @@
     "browser",
     "logo"
   ],
+  "church": [
+    "temple",
+    "building"
+  ],
   "cigarette": [
     "smoking"
   ],
@@ -912,13 +1461,51 @@
     "ellipsis",
     "progress"
   ],
-  "circle-slashed": [
+  "circle-equal": [
+    "calculate",
+    "maths",
+    "shape"
+  ],
+  "circle-off": [
+    "diameter",
+    "zero",
+    "Ø",
+    "null",
+    "nothing",
+    "cancel",
+    "ban",
+    "no",
+    "stop",
+    "forbidden",
+    "prohibited",
+    "error"
+  ],
+  "circle-slash": [
+    "diameter",
+    "zero",
+    "Ø",
+    "null",
+    "nothing",
+    "cancel",
+    "ban",
+    "no",
+    "stop",
+    "forbidden",
+    "prohibited",
+    "error"
+  ],
+  "circle-slash-2": [
     "diameter",
     "zero",
     "Ø",
     "null",
     "nothing",
     "maths"
+  ],
+  "circuit-board": [
+    "computing",
+    "electricity",
+    "electronics"
   ],
   "citrus": [
     "lemon",
@@ -940,7 +1527,12 @@
   ],
   "clipboard-check": [
     "copied",
-    "pasted"
+    "pasted",
+    "done",
+    "todo",
+    "tick",
+    "complete",
+    "task"
   ],
   "clipboard-copy": [
     "copy",
@@ -955,6 +1547,10 @@
     "copy",
     "paste",
     "tasks"
+  ],
+  "clipboard-paste": [
+    "copy",
+    "paste"
   ],
   "clipboard-signature": [
     "paste",
@@ -994,7 +1590,9 @@
   "clock-12": [
     "time",
     "watch",
-    "alarm"
+    "alarm",
+    "noon",
+    "midnight"
   ],
   "clock-2": [
     "time",
@@ -1096,6 +1694,7 @@
     "rainfall"
   ],
   "cloudy": [
+    "weather",
     "clouds"
   ],
   "clover": [
@@ -1145,13 +1744,28 @@
     "gamble"
   ],
   "columns": [
-    "layout"
+    "split",
+    "parallel",
+    "vertical",
+    "horizontal"
+  ],
+  "combine": [
+    "cubes",
+    "packages",
+    "parts",
+    "units",
+    "collection",
+    "cluster",
+    "combine",
+    "gather",
+    "merge"
   ],
   "command": [
     "keyboard",
+    "key",
+    "mac",
     "cmd",
-    "terminal",
-    "prompt"
+    "button"
   ],
   "compass": [
     "navigation",
@@ -1172,11 +1786,24 @@
     "bell",
     "porter"
   ],
+  "construction": [
+    "roadwork",
+    "maintenance",
+    "blockade",
+    "barricade"
+  ],
   "contact": [
     "person",
     "user"
   ],
-  "contrast": [],
+  "contact-2": [
+    "person",
+    "user"
+  ],
+  "contrast": [
+    "display",
+    "accessibility"
+  ],
   "cookie": [
     "biscuit",
     "privacy",
@@ -1185,20 +1812,64 @@
   ],
   "copy": [
     "clone",
-    "duplicate"
+    "duplicate",
+    "multiple"
+  ],
+  "copy-check": [
+    "clone",
+    "duplicate",
+    "done",
+    "multiple"
+  ],
+  "copy-minus": [
+    "clone",
+    "duplicate",
+    "remove",
+    "delete",
+    "collapse",
+    "multiple"
+  ],
+  "copy-plus": [
+    "clone",
+    "duplicate",
+    "add",
+    "multiple"
+  ],
+  "copy-slash": [
+    "clone",
+    "duplicate",
+    "cancel",
+    "ban",
+    "no",
+    "stop",
+    "forbidden",
+    "prohibited",
+    "error",
+    "multiple"
+  ],
+  "copy-x": [
+    "cancel",
+    "close",
+    "delete",
+    "remove",
+    "clear",
+    "multiple"
   ],
   "copyleft": [
     "licence"
   ],
   "copyright": [
-    "licence"
+    "licence",
+    "license"
   ],
   "corner-down-left": [
     "arrow",
     "return"
   ],
   "corner-down-right": [
-    "arrow"
+    "arrow",
+    "indent",
+    "tab"
   ],
   "corner-left-down": [
     "arrow"
@@ -1223,6 +1894,10 @@
     "technology",
     "computer",
     "chip"
+  ],
+  "creative-commons": [
+    "licence",
+    "license"
   ],
   "credit-card": [
     "bank",
@@ -1261,11 +1936,6 @@
     "straw",
     "water"
   ],
-  "curly-braces": [
-    "json",
-    "code",
-    "token"
-  ],
   "currency": [
     "finance",
     "money"
@@ -1273,6 +1943,15 @@
   "database": [
     "storage",
     "memory"
+  ],
+  "database-backup": [
+    "storage",
+    "memory",
+    "backup",
+    "timemachine",
+    "rotate",
+    "arrow",
+    "left"
   ],
   "delete": [
     "backspace",
@@ -1289,49 +1968,49 @@
     "dice",
     "random",
     "tabletop",
+    "1",
     "board",
-    "game",
-    "1"
+    "game"
   ],
   "dice-2": [
     "dice",
     "random",
     "tabletop",
+    "2",
     "board",
-    "game",
-    "2"
+    "game"
   ],
   "dice-3": [
     "dice",
     "random",
     "tabletop",
+    "3",
     "board",
-    "game",
-    "3"
+    "game"
   ],
   "dice-4": [
     "dice",
     "random",
     "tabletop",
+    "4",
     "board",
-    "game",
-    "4"
+    "game"
   ],
   "dice-5": [
     "dice",
     "random",
     "tabletop",
+    "5",
     "board",
-    "game",
-    "5"
+    "game"
   ],
   "dice-6": [
     "dice",
     "random",
     "tabletop",
+    "6",
     "board",
-    "game",
-    "6"
+    "game"
   ],
   "dices": [
     "dice",
@@ -1352,6 +2031,12 @@
     "album",
     "cd",
     "dvd",
+    "music"
+  ],
+  "disc-2": [
+    "album",
+    "vinyl",
+    "record",
     "music"
   ],
   "divide": [
@@ -1394,6 +2079,39 @@
     "money",
     "payment"
   ],
+  "door-closed": [
+    "entrance",
+    "entry",
+    "exit",
+    "ingress",
+    "egress",
+    "gate",
+    "gateway",
+    "emergency exit"
+  ],
+  "door-open": [
+    "entrance",
+    "entry",
+    "exit",
+    "ingress",
+    "egress",
+    "gate",
+    "gateway",
+    "emergency exit"
+  ],
+  "dot": [
+    "interpunct",
+    "interpoint",
+    "middot",
+    "step",
+    "punctuation",
+    "characters",
+    "font",
+    "typography",
+    "type",
+    "text",
+    "center"
+  ],
   "download": [
     "import",
     "export"
@@ -1401,13 +2119,18 @@
   "download-cloud": [
     "import"
   ],
-  "dribbble": [],
+  "dribbble": [
+    "design",
+    "social"
+  ],
   "droplet": [
-    "water"
+    "water",
+    "weather"
   ],
   "droplets": [
     "water",
-    "humidity"
+    "humidity",
+    "weather"
   ],
   "drumstick": [
     "food",
@@ -1449,11 +2172,17 @@
     "change"
   ],
   "egg": [
-    "food"
+    "food",
+    "bird",
+    "chick"
   ],
   "egg-fried": [
     "food",
     "breakfast"
+  ],
+  "egg-off": [
+    "egg free",
+    "food"
   ],
   "equal": [
     "calculate",
@@ -1578,11 +2307,19 @@
   ],
   "file-check": [
     "done",
-    "document"
+    "document",
+    "todo",
+    "tick",
+    "complete",
+    "task"
   ],
   "file-check-2": [
     "done",
-    "document"
+    "document",
+    "todo",
+    "tick",
+    "complete",
+    "task"
   ],
   "file-clock": [
     "history",
@@ -1591,7 +2328,20 @@
   ],
   "file-code": [
     "script",
-    "document"
+    "document",
+    "gist",
+    "html",
+    "xml",
+    "property list",
+    "plist"
+  ],
+  "file-code-2": [
+    "script",
+    "document",
+    "html",
+    "xml",
+    "property list",
+    "plist"
   ],
   "file-cog": [
     "executable",
@@ -1642,12 +2392,14 @@
   "file-json": [
     "code",
     "json",
-    "curly braces"
+    "curly braces",
+    "curly brackets"
   ],
   "file-json-2": [
     "code",
     "json",
-    "curly braces"
+    "curly braces",
+    "curly brackets"
   ],
   "file-key": [
     "key",
@@ -1758,14 +2510,12 @@
   "file-type": [
     "font",
     "text",
-    "font",
     "typography",
     "type"
   ],
   "file-type-2": [
     "font",
     "text",
-    "font",
     "typography",
     "type"
   ],
@@ -1799,7 +2549,8 @@
     "warning",
     "alert",
     "danger",
-    "protected"
+    "protected",
+    "exclamation mark"
   ],
   "file-x": [
     "lost",
@@ -1826,12 +2577,43 @@
     "funnel",
     "hopper"
   ],
+  "filter-x": [
+    "funnel",
+    "hopper"
+  ],
   "fingerprint": [
     "2fa",
     "authentication",
     "biometric",
     "identity",
     "security"
+  ],
+  "fish": [
+    "food",
+    "dish",
+    "restaurant",
+    "course",
+    "meal",
+    "seafood",
+    "animal",
+    "pet",
+    "sea",
+    "marine"
+  ],
+  "fish-off": [
+    "food",
+    "dish",
+    "restaurant",
+    "course",
+    "meal",
+    "seafood",
+    "animal",
+    "pet",
+    "sea",
+    "marine",
+    "allergy",
+    "intolerance",
+    "diet"
   ],
   "flag": [
     "report"
@@ -1859,15 +2641,27 @@
   ],
   "flask-conical": [
     "beaker",
-    "erlenmeyer"
+    "erlenmeyer",
+    "lab",
+    "chemistry",
+    "experiment",
+    "test"
   ],
   "flask-conical-off": [
     "beaker",
     "erlenmeyer",
-    "non toxic"
+    "non toxic",
+    "lab",
+    "chemistry",
+    "experiment",
+    "test"
   ],
   "flask-round": [
-    "beaker"
+    "beaker",
+    "lab",
+    "chemistry",
+    "experiment",
+    "test"
   ],
   "flip-horizontal": [
     "reflect",
@@ -1905,6 +2699,20 @@
     "lens",
     "photo"
   ],
+  "fold-horizontal": [
+    "arrow",
+    "collapse",
+    "fold",
+    "vertical",
+    "dashed"
+  ],
+  "fold-vertical": [
+    "arrow",
+    "collapse",
+    "fold",
+    "vertical",
+    "dashed"
+  ],
   "folder": [
     "directory"
   ],
@@ -1916,7 +2724,10 @@
   "folder-check": [
     "done",
     "directory",
-    "check"
+    "todo",
+    "tick",
+    "complete",
+    "task"
   ],
   "folder-clock": [
     "history",
@@ -1955,6 +2766,20 @@
     "directory",
     "edit",
     "rename"
+  ],
+  "folder-git": [
+    "directory",
+    "root",
+    "project",
+    "git",
+    "repo"
+  ],
+  "folder-git-2": [
+    "directory",
+    "root",
+    "project",
+    "git",
+    "repo"
   ],
   "folder-heart": [
     "directory",
@@ -2042,6 +2867,19 @@
     "copy",
     "directories"
   ],
+  "footprints": [
+    "steps",
+    "walking",
+    "foot",
+    "feet",
+    "trail",
+    "shoe"
+  ],
+  "forklift": [
+    "vehicle",
+    "transport",
+    "logistics"
+  ],
   "form-input": [
     "2fa",
     "authenticate",
@@ -2083,11 +2921,6 @@
     "automation",
     "maths"
   ],
-  "joystick": [
-    "game",
-    "console",
-    "control stick"
-  ],
   "gamepad": [
     "console"
   ],
@@ -2095,7 +2928,12 @@
     "console"
   ],
   "gauge": [
-    "dashboard"
+    "dashboard",
+    "dial",
+    "meter",
+    "speed",
+    "pressure",
+    "measure"
   ],
   "gavel": [
     "hammer",
@@ -2145,15 +2983,15 @@
     "code",
     "version control"
   ],
-  "git-pull-request-draft": [
-    "code",
-    "version control",
-    "draft"
-  ],
   "git-pull-request-closed": [
     "code",
     "version control",
     "rejected"
+  ],
+  "git-pull-request-draft": [
+    "code",
+    "version control",
+    "draft"
   ],
   "github": [
     "logo",
@@ -2202,10 +3040,19 @@
   "grid": [
     "table"
   ],
+  "grip": [
+    "grab",
+    "dots",
+    "handle",
+    "move",
+    "drag"
+  ],
   "grip-horizontal": [
     "grab",
     "dots",
-    "handle"
+    "handle",
+    "move",
+    "drag"
   ],
   "grip-vertical": [
     "grab",
@@ -2213,6 +3060,15 @@
     "handle",
     "move",
     "drag"
+  ],
+  "group": [
+    "cubes",
+    "packages",
+    "parts",
+    "units",
+    "collection",
+    "cluster",
+    "gather"
   ],
   "hammer": [
     "mallet"
@@ -2238,7 +3094,8 @@
   "hard-hat": [
     "helmet",
     "construction",
-    "safety"
+    "safety",
+    "savety"
   ],
   "hash": [
     "hashtag",
@@ -2248,6 +3105,48 @@
   "haze": [
     "mist",
     "fog"
+  ],
+  "heading": [
+    "h1",
+    "html",
+    "markup",
+    "markdown"
+  ],
+  "heading-1": [
+    "h1",
+    "html",
+    "markup",
+    "markdown"
+  ],
+  "heading-2": [
+    "h2",
+    "html",
+    "markup",
+    "markdown"
+  ],
+  "heading-3": [
+    "h3",
+    "html",
+    "markup",
+    "markdown"
+  ],
+  "heading-4": [
+    "h4",
+    "html",
+    "markup",
+    "markdown"
+  ],
+  "heading-5": [
+    "h5",
+    "html",
+    "markup",
+    "markdown"
+  ],
+  "heading-6": [
+    "h6",
+    "html",
+    "markup",
+    "markdown"
   ],
   "headphones": [
     "music",
@@ -2293,6 +3192,14 @@
   "help-circle": [
     "question mark"
   ],
+  "helping-hand": [
+    "agreement",
+    "help",
+    "proposal",
+    "charity",
+    "begging",
+    "terms"
+  ],
   "hexagon": [
     "shape",
     "node.js",
@@ -2308,7 +3215,9 @@
     "undo",
     "rewind",
     "timeline",
-    "version"
+    "version",
+    "time machine",
+    "backup"
   ],
   "home": [
     "house",
@@ -2328,6 +3237,12 @@
     "intolerance",
     "diet"
   ],
+  "hotel": [
+    "building",
+    "hostel",
+    "motel",
+    "inn"
+  ],
   "hourglass": [
     "timer",
     "time",
@@ -2336,6 +3251,15 @@
   "ice-cream": [
     "gelato",
     "food"
+  ],
+  "ice-cream-2": [
+    "gelato",
+    "food",
+    "dessert",
+    "dish",
+    "restaurant",
+    "course",
+    "meal"
   ],
   "image": [
     "picture",
@@ -2387,13 +3311,21 @@
   ],
   "instagram": [
     "logo",
-    "social",
-    "camera"
+    "camera",
+    "social"
   ],
   "italic": [
     "oblique",
     "text",
     "format"
+  ],
+  "iteration-ccw": [
+    "arrow",
+    "right"
+  ],
+  "iteration-cw": [
+    "arrow",
+    "left"
   ],
   "japanese-yen": [
     "currency",
@@ -2469,15 +3401,23 @@
     "translate"
   ],
   "laptop": [
-    "computer"
+    "computer",
+    "screen",
+    "remote"
   ],
   "laptop-2": [
-    "computer"
+    "computer",
+    "screen",
+    "remote"
   ],
   "lasso": [
-    "select"
+    "select",
+    "cursor"
   ],
-  "lasso-select": [],
+  "lasso-select": [
+    "select",
+    "cursor"
+  ],
   "laugh": [
     "emoji",
     "face",
@@ -2507,6 +3447,21 @@
     "photo",
     "item"
   ],
+  "layout-panel-left": [
+    "app",
+    "home",
+    "start",
+    "grid"
+  ],
+  "layout-panel-top": [
+    "window",
+    "webpage",
+    "block",
+    "section",
+    "grid",
+    "template",
+    "structure"
+  ],
   "layout-template": [
     "window",
     "webpage",
@@ -2520,6 +3475,14 @@
     "plant",
     "autumn"
   ],
+  "leafy-green": [
+    "salad",
+    "lettuce",
+    "vegetable",
+    "chard",
+    "cabbage",
+    "bok choy"
+  ],
   "library": [
     "book",
     "music",
@@ -2529,6 +3492,13 @@
     "help",
     "rescue",
     "ship"
+  ],
+  "ligature": [
+    "text",
+    "font",
+    "typography",
+    "alternates",
+    "alternatives"
   ],
   "lightbulb": [
     "idea",
@@ -2557,6 +3527,7 @@
   ],
   "linkedin": [
     "logo",
+    "social media",
     "social"
   ],
   "list": [
@@ -2564,7 +3535,10 @@
   ],
   "list-checks": [
     "todo",
-    "done"
+    "done",
+    "tick",
+    "complete",
+    "task"
   ],
   "list-end": [
     "queue",
@@ -2572,13 +3546,16 @@
     "end",
     "playlist"
   ],
+  "list-filter": [
+    "options"
+  ],
   "list-minus": [
     "playlist",
     "remove",
     "song",
     "subtract",
-    "remove",
-    "delete"
+    "delete",
+    "unqueue"
   ],
   "list-music": [
     "playlist",
@@ -2589,7 +3566,8 @@
   ],
   "list-ordered": [
     "number",
-    "order"
+    "order",
+    "queue"
   ],
   "list-plus": [
     "playlist",
@@ -2598,12 +3576,23 @@
     "track",
     "new"
   ],
+  "list-restart": [
+    "reset",
+    "refresh",
+    "reload",
+    "playlist",
+    "replay"
+  ],
   "list-start": [
     "queue",
     "top",
     "start",
     "next",
     "playlist"
+  ],
+  "list-tree": [
+    "tree",
+    "browser"
   ],
   "list-video": [
     "playlist",
@@ -2614,7 +3603,8 @@
     "playlist",
     "subtract",
     "remove",
-    "delete"
+    "delete",
+    "unqueue"
   ],
   "loader": [
     "load",
@@ -2662,8 +3652,8 @@
   "luggage": [
     "baggage",
     "luggage",
-    "suitcase",
-    "travel"
+    "travel",
+    "suitcase"
   ],
   "magnet": [
     "horseshoe",
@@ -2683,7 +3673,13 @@
     "letter",
     "subscribe",
     "delivered",
-    "success"
+    "success",
+    "read",
+    "done",
+    "todo",
+    "tick",
+    "complete",
+    "task"
   ],
   "mail-minus": [
     "email",
@@ -2724,7 +3720,8 @@
     "email",
     "message",
     "letter",
-    "delivery error"
+    "delivery error",
+    "exclamation mark"
   ],
   "mail-x": [
     "email",
@@ -2732,6 +3729,13 @@
     "letter",
     "remove",
     "delete"
+  ],
+  "mailbox": [
+    "emails",
+    "messages",
+    "letters",
+    "mailing list",
+    "newsletter"
   ],
   "mails": [
     "emails",
@@ -2804,11 +3808,27 @@
     "neutral",
     "emotion"
   ],
+  "memory-stick": [
+    "ram"
+  ],
   "menu": [
     "bars",
     "navigation",
     "hamburger",
     "options"
+  ],
+  "menu-square": [
+    "bars",
+    "navigation",
+    "hamburger",
+    "options",
+    "menu bar",
+    "panel"
+  ],
+  "merge": [
+    "combine",
+    "join",
+    "unite"
   ],
   "message-circle": [
     "comment",
@@ -2820,18 +3840,32 @@
     "chat",
     "conversation"
   ],
+  "message-square-dashed": [
+    "comment",
+    "chat",
+    "conversation",
+    "draft"
+  ],
+  "message-square-plus": [
+    "comment",
+    "chat",
+    "conversation",
+    "add",
+    "feedback"
+  ],
+  "messages-square": [
+    "comment",
+    "chat",
+    "conversation",
+    "copy",
+    "multiple"
+  ],
   "mic": [
     "record",
     "sound",
     "listen",
     "radio",
     "podcast",
-    "microphone"
-  ],
-  "mic-off": [
-    "record",
-    "sound",
-    "mute",
     "microphone"
   ],
   "mic-2": [
@@ -2844,6 +3878,12 @@
     "podcast",
     "karaoke",
     "singing",
+    "microphone"
+  ],
+  "mic-off": [
+    "record",
+    "sound",
+    "mute",
     "microphone"
   ],
   "microscope": [
@@ -2862,6 +3902,7 @@
   "milestone": [
     "sign",
     "signpost",
+    "direction",
     "version control"
   ],
   "milk": [
@@ -2896,7 +3937,11 @@
   "minus": [
     "subtract",
     "calculate",
-    "maths"
+    "maths",
+    "line",
+    "divide",
+    "horizontal rule",
+    "hr"
   ],
   "minus-circle": [
     "subtract",
@@ -2913,17 +3958,49 @@
     "screen",
     "display"
   ],
+  "monitor-down": [
+    "tv",
+    "screen",
+    "display",
+    "desktop",
+    "download"
+  ],
   "monitor-off": [
     "share"
+  ],
+  "monitor-smartphone": [
+    "smartphone",
+    "phone",
+    "cellphone",
+    "device",
+    "mobile",
+    "desktop",
+    "monitor",
+    "responsive",
+    "screens"
   ],
   "monitor-speaker": [
     "devices",
     "connect",
     "cast"
   ],
+  "monitor-up": [
+    "tv",
+    "screen",
+    "display",
+    "upload",
+    "connect",
+    "remote",
+    "screen share"
+  ],
   "moon": [
     "dark",
     "night"
+  ],
+  "moon-star": [
+    "dark",
+    "night",
+    "star"
   ],
   "more-horizontal": [
     "ellipsis",
@@ -2993,9 +4070,9 @@
     "arrow"
   ],
   "music": [
+    "note",
     "quaver",
-    "eighth note",
-    "note"
+    "eighth note"
   ],
   "music-2": [
     "quaver",
@@ -3041,6 +4118,11 @@
     "article",
     "headline"
   ],
+  "nfc": [
+    "contactless",
+    "payment",
+    "near-field communication"
+  ],
   "nut": [
     "hazelnut",
     "acorn",
@@ -3060,9 +4142,16 @@
     "shape"
   ],
   "option": [
+    "keyboard",
     "key",
     "mac",
+    "alt",
     "button"
+  ],
+  "orbit": [
+    "planet",
+    "space",
+    "physics"
   ],
   "outdent": [
     "text",
@@ -3080,7 +4169,12 @@
   ],
   "package-check": [
     "confirm",
-    "verified"
+    "verified",
+    "done",
+    "todo",
+    "tick",
+    "complete",
+    "task"
   ],
   "package-minus": [
     "delete",
@@ -3114,12 +4208,14 @@
   "paintbrush": [
     "brush",
     "paintbrush",
-    "design"
+    "design",
+    "color"
   ],
   "paintbrush-2": [
     "brush",
     "paintbrush",
-    "design"
+    "design",
+    "color"
   ],
   "palette": [
     "color",
@@ -3130,9 +4226,137 @@
     "leisure",
     "island"
   ],
+  "panel-bottom": [
+    "drawer",
+    "dock"
+  ],
+  "panel-bottom-close": [
+    "drawer",
+    "dock",
+    "hide"
+  ],
+  "panel-bottom-inactive": [
+    "drawer",
+    "dock",
+    "show",
+    "reveal",
+    "dashed"
+  ],
+  "panel-bottom-open": [
+    "drawer",
+    "dock",
+    "show",
+    "reveal"
+  ],
+  "panel-left": [
+    "primary",
+    "drawer"
+  ],
+  "panel-left-close": [
+    "primary",
+    "drawer",
+    "hide"
+  ],
+  "panel-left-inactive": [
+    "sidebar",
+    "primary",
+    "drawer",
+    "show",
+    "reveal",
+    "dashed"
+  ],
+  "panel-left-open": [
+    "primary",
+    "drawer",
+    "show",
+    "reveal"
+  ],
+  "panel-right": [
+    "sidebar",
+    "secondary",
+    "drawer"
+  ],
+  "panel-right-close": [
+    "sidebar",
+    "secondary",
+    "drawer",
+    "hide"
+  ],
+  "panel-right-inactive": [
+    "sidebar",
+    "secondary",
+    "drawer",
+    "show",
+    "reveal",
+    "dashed"
+  ],
+  "panel-right-open": [
+    "sidebar",
+    "secondary",
+    "drawer",
+    "show",
+    "reveal"
+  ],
+  "panel-top": [
+    "drawer",
+    "menu bar",
+    "browser",
+    "webpage"
+  ],
+  "panel-top-close": [
+    "menu bar",
+    "drawer",
+    "hide"
+  ],
+  "panel-top-inactive": [
+    "menu bar",
+    "drawer",
+    "show",
+    "reveal",
+    "dashed"
+  ],
+  "panel-top-open": [
+    "menu bar",
+    "drawer",
+    "show",
+    "reveal"
+  ],
   "paperclip": [
     "attachment",
     "file"
+  ],
+  "parentheses": [
+    "code",
+    "token",
+    "parenthesis",
+    "parens",
+    "brackets",
+    "parameters",
+    "arguments",
+    "args",
+    "input",
+    "call",
+    "maths",
+    "formula",
+    "function"
+  ],
+  "parking-circle": [
+    "parking lot",
+    "car park"
+  ],
+  "parking-circle-off": [
+    "parking lot",
+    "car park",
+    "no parking"
+  ],
+  "parking-square": [
+    "parking lot",
+    "car park"
+  ],
+  "parking-square-off": [
+    "parking lot",
+    "car park",
+    "no parking"
   ],
   "party-popper": [
     "emoji",
@@ -3153,6 +4377,10 @@
     "music",
     "audio",
     "stop"
+  ],
+  "pc-case": [
+    "computer",
+    "chassis"
   ],
   "pen-tool": [
     "vector",
@@ -3195,13 +4423,51 @@
   "phone-outgoing": [
     "call"
   ],
+  "picture-in-picture": [
+    "display",
+    "play",
+    "video",
+    "pop out",
+    "always on top",
+    "window",
+    "inset",
+    "multitask"
+  ],
+  "picture-in-picture-2": [
+    "display",
+    "play",
+    "video",
+    "pop out",
+    "always on top",
+    "window",
+    "inset",
+    "multitask"
+  ],
   "pie-chart": [
     "statistics",
-    "diagram"
+    "diagram",
+    "presentation"
   ],
   "piggy-bank": [
     "money",
     "savings"
+  ],
+  "pilcrow": [
+    "paragraph",
+    "mark",
+    "paraph",
+    "blind",
+    "typography",
+    "type",
+    "text"
+  ],
+  "pill": [
+    "medicine",
+    "medication",
+    "drug",
+    "prescription",
+    "tablet",
+    "pharmacy"
   ],
   "pin": [
     "save",
@@ -3211,14 +4477,17 @@
   ],
   "pin-off": [
     "unpin",
-    "unsave",
+    "map",
     "unlock",
-    "remove",
-    "unfix"
+    "unfix",
+    "unsave",
+    "remove"
   ],
   "pipette": [
     "eye dropper",
-    "color picker"
+    "color picker",
+    "lab",
+    "chemistry"
   ],
   "pizza": [
     "pie",
@@ -3226,18 +4495,56 @@
     "food"
   ],
   "plane": [
+    "plane",
+    "trip",
+    "airplane"
+  ],
+  "plane-landing": [
+    "arrival",
+    "plane",
+    "trip",
     "airplane",
-    "trip"
+    "landing"
+  ],
+  "plane-takeoff": [
+    "departure",
+    "plane",
+    "trip",
+    "airplane",
+    "takeoff"
   ],
   "play": [
     "music",
-    "start"
+    "start",
+    "run"
   ],
   "play-circle": [
     "music",
-    "start"
+    "start",
+    "run"
+  ],
+  "plug": [
+    "electricity",
+    "electronics",
+    "socket",
+    "outlet"
+  ],
+  "plug-2": [
+    "electricity",
+    "socket",
+    "outlet"
   ],
   "plug-zap": [
+    "electricity",
+    "electronics",
+    "charge",
+    "charging",
+    "battery",
+    "connect"
+  ],
+  "plug-zap-2": [
+    "electricity",
+    "electronics",
     "charge",
     "charging",
     "battery",
@@ -3277,10 +4584,16 @@
   "power": [
     "on",
     "off",
-    "device"
+    "device",
+    "switch",
+    "reboot",
+    "restart"
   ],
   "power-off": [
-    "device"
+    "on",
+    "off",
+    "device",
+    "switch"
   ],
   "printer": [
     "fax",
@@ -3299,16 +4612,51 @@
   "quote": [
     "quotation"
   ],
+  "radiation": [
+    "radioactive",
+    "nuclear",
+    "fallout",
+    "waste",
+    "atomic",
+    "physics",
+    "particle",
+    "element",
+    "molecule"
+  ],
   "radio": [
     "signal",
     "broadcast",
     "connectivity",
-    "live"
+    "live",
+    "frequency"
   ],
   "radio-receiver": [
     "device",
     "music",
     "connect"
+  ],
+  "radio-tower": [
+    "signal",
+    "broadcast",
+    "connectivity",
+    "live",
+    "frequency"
+  ],
+  "rat": [
+    "animal",
+    "mouse",
+    "mice",
+    "rodent",
+    "pet",
+    "pest",
+    "plague"
+  ],
+  "receipt": [
+    "bill",
+    "voucher",
+    "slip",
+    "check",
+    "counterfoil"
   ],
   "rectangle-horizontal": [
     "rectangle",
@@ -3331,21 +4679,40 @@
   ],
   "redo": [
     "undo",
+    "rerun",
     "history"
   ],
   "redo-2": [
     "undo",
+    "rerun",
     "history"
+  ],
+  "redo-dot": [
+    "redo",
+    "history",
+    "step",
+    "over",
+    "forward"
   ],
   "refresh-ccw": [
     "arrows",
-    "reload"
-  ],
-  "refresh-cw": [
+    "rotate",
     "reload",
+    "rerun",
     "synchronise",
     "synchronize",
-    "arrows"
+    "circular",
+    "cycle"
+  ],
+  "refresh-cw": [
+    "rotate",
+    "reload",
+    "rerun",
+    "synchronise",
+    "synchronize",
+    "arrows",
+    "circular",
+    "cycle"
   ],
   "refrigerator": [
     "frigerator",
@@ -3361,12 +4728,43 @@
     "text",
     "code"
   ],
+  "remove-formatting": [
+    "text",
+    "font",
+    "typography",
+    "format",
+    "x",
+    "remove",
+    "delete",
+    "times",
+    "clear"
+  ],
   "repeat": [
     "loop",
     "arrows"
   ],
   "repeat-1": [
     "replay"
+  ],
+  "repeat-2": [
+    "arrows",
+    "retweet",
+    "repost",
+    "share",
+    "repeat",
+    "loop"
+  ],
+  "replace": [
+    "search",
+    "substitute",
+    "swap",
+    "change"
+  ],
+  "replace-all": [
+    "search",
+    "substitute",
+    "swap",
+    "change"
   ],
   "reply": [
     "email"
@@ -3397,11 +4795,37 @@
   ],
   "rotate-ccw": [
     "arrow",
-    "left"
+    "left",
+    "counter-clockwise",
+    "restart",
+    "reload",
+    "rerun",
+    "refresh",
+    "backup",
+    "undo"
   ],
   "rotate-cw": [
     "arrow",
-    "right"
+    "right",
+    "clockwise",
+    "refresh",
+    "reload",
+    "rerun",
+    "redo"
+  ],
+  "router": [
+    "computer",
+    "server",
+    "cloud"
+  ],
+  "rows": [
+    "split",
+    "lines",
+    "queue",
+    "series",
+    "list",
+    "vertical",
+    "horizontal"
   ],
   "rss": [
     "feed",
@@ -3425,8 +4849,42 @@
     "harbour",
     "dock"
   ],
+  "salad": [
+    "food",
+    "vegetarian",
+    "dish",
+    "restaurant",
+    "course",
+    "meal",
+    "side",
+    "vegetables",
+    "health"
+  ],
+  "sandwich": [
+    "food",
+    "snack",
+    "dish",
+    "restaurant",
+    "lunch",
+    "meal"
+  ],
+  "satellite": [
+    "space station",
+    "orbit",
+    "transmitter"
+  ],
+  "satellite-dish": [
+    "antenna",
+    "receiver",
+    "dish aerial",
+    "saucer"
+  ],
   "save": [
     "floppy disk"
+  ],
+  "save-all": [
+    "floppy disks",
+    "copy"
   ],
   "scale": [
     "balance",
@@ -3458,23 +4916,52 @@
   "scan-line": [
     "qr-code"
   ],
+  "school": [
+    "building",
+    "education",
+    "childhood",
+    "university"
+  ],
+  "school-2": [
+    "building",
+    "education",
+    "childhood",
+    "university"
+  ],
   "scissors": [
     "cut"
   ],
   "screen-share": [
     "host",
-    "desktop"
+    "desktop",
+    "monitor"
   ],
   "screen-share-off": [
     "desktop",
-    "disconnect"
+    "disconnect",
+    "monitor"
   ],
   "scroll": [
     "paper",
     "log",
     "scripture",
     "document",
-    "parchment"
+    "parchment",
+    "list",
+    "long",
+    "script",
+    "code"
+  ],
+  "scroll-text": [
+    "paper",
+    "log",
+    "scripture",
+    "document",
+    "parchment",
+    "list",
+    "long",
+    "script",
+    "code"
   ],
   "search": [
     "find",
@@ -3552,13 +5039,18 @@
     "secure",
     "virus",
     "admin",
-    "safety"
+    "safety",
+    "savety"
   ],
   "shield-check": [
     "security",
     "secure",
     "done",
-    "save"
+    "save",
+    "todo",
+    "tick",
+    "complete",
+    "task"
   ],
   "shield-close": [
     "security",
@@ -3570,8 +5062,18 @@
   "shield-off": [
     "security",
     "secure",
-    "security",
     "insecure"
+  ],
+  "shield-question": [
+    "security",
+    "secure",
+    "insecure"
+  ],
+  "ship": [
+    "boat",
+    "trip",
+    "maritime",
+    "navy"
   ],
   "shirt": [
     "t-shirt",
@@ -3594,7 +5096,8 @@
   ],
   "shovel": [
     "dig",
-    "spade"
+    "spade",
+    "treasure"
   ],
   "shower-head": [
     "shower",
@@ -3614,20 +5117,14 @@
     "nature"
   ],
   "shuffle": [
-    "music"
-  ],
-  "sidebar": [
-    "menu"
-  ],
-  "sidebar-close": [
-    "menu"
-  ],
-  "sidebar-open": [
-    "menu"
+    "music",
+    "random",
+    "reorder"
   ],
   "sigma": [
     "sum",
     "calculate",
+    "formula",
     "maths"
   ],
   "signal": [
@@ -3709,15 +5206,6 @@
   "slack": [
     "logo"
   ],
-  "slash": [
-    "cancel",
-    "ban",
-    "no",
-    "stop",
-    "forbidden",
-    "prohibited",
-    "error"
-  ],
   "slice": [
     "cutter",
     "scalpel",
@@ -3735,13 +5223,21 @@
   "smartphone": [
     "phone",
     "cellphone",
-    "device"
+    "device",
+    "screen"
   ],
   "smartphone-charging": [
     "phone",
     "cellphone",
     "device",
-    "power"
+    "power",
+    "screen"
+  ],
+  "smartphone-nfc": [
+    "contactless",
+    "payment",
+    "near-field communication",
+    "screen"
   ],
   "smile": [
     "emoji",
@@ -3775,15 +5271,50 @@
     "loveseat",
     "couch"
   ],
-  "sort-asc": [
-    "filter"
+  "soup": [
+    "food",
+    "dish",
+    "restaurant",
+    "course",
+    "meal",
+    "bowl",
+    "starter"
   ],
-  "sort-desc": [
-    "filter"
+  "space": [
+    "text",
+    "selection",
+    "letters",
+    "characters",
+    "font",
+    "typography"
+  ],
+  "sparkles": [
+    "stars",
+    "effect",
+    "filter",
+    "night",
+    "magic"
   ],
   "speaker": [
     "audio",
     "music"
+  ],
+  "spline": [],
+  "split": [
+    "break",
+    "disband",
+    "divide",
+    "separate",
+    "branch",
+    "disunite"
+  ],
+  "split-square-horizontal": [
+    "split",
+    "divide"
+  ],
+  "split-square-vertical": [
+    "split",
+    "divide"
   ],
   "sprout": [
     "leaf",
@@ -3795,6 +5326,32 @@
     "aspect ratio",
     "1:1",
     "shape"
+  ],
+  "square-asterisk": [
+    "password",
+    "secret",
+    "access",
+    "key"
+  ],
+  "square-dot": [
+    "git",
+    "diff",
+    "modified"
+  ],
+  "square-equal": [
+    "calculate"
+  ],
+  "square-slash": [
+    "git",
+    "diff",
+    "ignored"
+  ],
+  "stamp": [
+    "mark",
+    "print",
+    "clone",
+    "loyalty",
+    "library"
   ],
   "star": [
     "bookmark",
@@ -3816,6 +5373,27 @@
     "remove",
     "unrate"
   ],
+  "step-back": [
+    "arrow",
+    "previous",
+    "music",
+    "left",
+    "reverse"
+  ],
+  "step-forward": [
+    "arrow",
+    "next",
+    "music",
+    "right",
+    "continue"
+  ],
+  "stethoscope": [
+    "phonendoscope",
+    "medical",
+    "heart",
+    "lungs",
+    "sound"
+  ],
   "sticker": [
     "reaction",
     "emotion",
@@ -3829,16 +5407,16 @@
     "reaction",
     "memo"
   ],
-  "stethoscope": [
-    "phonendoscope",
-    "medical",
-    "heart",
-    "lungs",
-    "sound"
-  ],
   "stop-circle": [
     "media",
     "music"
+  ],
+  "store": [
+    "shop",
+    "supermarket",
+    "stand",
+    "boutique",
+    "building"
   ],
   "stretch-horizontal": [
     "items",
@@ -3860,6 +5438,11 @@
   ],
   "subscript": [
     "text"
+  ],
+  "subtitles": [
+    "captions",
+    "closed captions",
+    "accessibility"
   ],
   "sun": [
     "brightness",
@@ -3955,6 +5538,14 @@
   "tablet": [
     "device"
   ],
+  "tablets": [
+    "medicine",
+    "medication",
+    "drug",
+    "prescription",
+    "pills",
+    "pharmacy"
+  ],
   "tag": [
     "label",
     "badge",
@@ -3989,11 +5580,60 @@
     "prompt",
     "shell"
   ],
+  "test-tube": [
+    "tube",
+    "vial",
+    "phial",
+    "flask",
+    "ampoule",
+    "ampule",
+    "lab",
+    "chemistry",
+    "experiment",
+    "test"
+  ],
+  "test-tube-2": [
+    "tube",
+    "vial",
+    "phial",
+    "flask",
+    "ampoule",
+    "ampule",
+    "lab",
+    "chemistry",
+    "experiment",
+    "test"
+  ],
+  "test-tubes": [
+    "tubes",
+    "vials",
+    "phials",
+    "flasks",
+    "ampoules",
+    "ampules",
+    "lab",
+    "chemistry",
+    "experiment",
+    "test"
+  ],
+  "text": [
+    "find",
+    "search",
+    "data",
+    "txt",
+    "pdf",
+    "document"
+  ],
   "text-cursor": [
     "select"
   ],
   "text-cursor-input": [
     "select"
+  ],
+  "text-select": [
+    "find",
+    "search",
+    "selection"
   ],
   "thermometer": [
     "temperature",
@@ -4064,6 +5704,21 @@
     "storm",
     "hurricane"
   ],
+  "touchpad": [
+    "trackpad",
+    "cursor"
+  ],
+  "touchpad-off": [
+    "trackpad",
+    "cursor"
+  ],
+  "tower-control": [
+    "airport",
+    "travel",
+    "tower",
+    "transportation",
+    "lighthouse"
+  ],
   "toy-brick": [
     "lego",
     "block",
@@ -4109,7 +5764,8 @@
     "nature"
   ],
   "trello": [
-    "logo"
+    "logo",
+    "brand"
   ],
   "trending-down": [
     "statistics"
@@ -4168,24 +5824,59 @@
   ],
   "undo": [
     "redo",
+    "rerun",
     "history"
   ],
   "undo-2": [
     "redo",
+    "rerun",
     "history"
+  ],
+  "undo-dot": [
+    "redo",
+    "history",
+    "step",
+    "back"
+  ],
+  "unfold-horizontal": [
+    "arrow",
+    "collapse",
+    "fold",
+    "vertical",
+    "dashed"
+  ],
+  "unfold-vertical": [
+    "arrow",
+    "expand",
+    "vertical",
+    "dashed"
+  ],
+  "ungroup": [
+    "cubes",
+    "packages",
+    "parts",
+    "units",
+    "collection",
+    "cluster",
+    "separate"
   ],
   "unlink": [
     "url",
-    "unchain",
     "unchain"
   ],
   "unlink-2": [
     "url",
-    "unchain",
     "unchain"
   ],
   "unlock": [
     "security"
+  ],
+  "unplug": [
+    "electricity",
+    "electronics",
+    "socket",
+    "outlet",
+    "disconnect"
   ],
   "upload": [
     "file"
@@ -4206,10 +5897,38 @@
     "account",
     "contact"
   ],
+  "user-2": [
+    "person",
+    "account",
+    "contact"
+  ],
   "user-check": [
     "followed",
     "subscribed",
-    "done"
+    "done",
+    "todo",
+    "tick",
+    "complete",
+    "task"
+  ],
+  "user-check-2": [
+    "followed",
+    "subscribed",
+    "done",
+    "todo",
+    "tick",
+    "complete",
+    "task"
+  ],
+  "user-circle": [
+    "person",
+    "account",
+    "contact"
+  ],
+  "user-circle-2": [
+    "person",
+    "account",
+    "contact"
   ],
   "user-cog": [
     "settings",
@@ -4217,7 +5936,19 @@
     "cog",
     "gear"
   ],
+  "user-cog-2": [
+    "settings",
+    "edit",
+    "cog",
+    "gear"
+  ],
   "user-minus": [
+    "delete",
+    "remove",
+    "unfollow",
+    "unsubscribe"
+  ],
+  "user-minus-2": [
     "delete",
     "remove",
     "unfollow",
@@ -4230,6 +5961,23 @@
     "follow",
     "subscribe"
   ],
+  "user-plus-2": [
+    "new",
+    "add",
+    "create",
+    "follow",
+    "subscribe"
+  ],
+  "user-square": [
+    "person",
+    "account",
+    "contact"
+  ],
+  "user-square-2": [
+    "person",
+    "account",
+    "contact"
+  ],
   "user-x": [
     "delete",
     "remove",
@@ -4237,7 +5985,18 @@
     "unsubscribe",
     "unavailable"
   ],
+  "user-x-2": [
+    "delete",
+    "remove",
+    "unfollow",
+    "unsubscribe",
+    "unavailable"
+  ],
   "users": [
+    "group",
+    "people"
+  ],
+  "users-2": [
     "group",
     "people"
   ],
@@ -4258,6 +6017,12 @@
     "breakfast",
     "dinner",
     "supper"
+  ],
+  "utility-pole": [
+    "electricity",
+    "energy",
+    "transmission line",
+    "telegraph pole"
   ],
   "vegan": [
     "vegetarian",
@@ -4280,13 +6045,16 @@
     "smartphone",
     "notification",
     "rumble",
-    "haptic feedback"
+    "haptic feedback",
+    "screen"
   ],
   "vibrate-off": [
     "smartphone",
     "notification",
     "rumble",
-    "haptic feedback"
+    "haptic feedback",
+    "notifications",
+    "screen"
   ],
   "video": [
     "camera",
@@ -4309,25 +6077,42 @@
   "volume": [
     "music",
     "sound",
-    "mute"
+    "mute",
+    "speaker"
   ],
   "volume-1": [
     "music",
-    "sound"
+    "sound",
+    "speaker"
   ],
   "volume-2": [
     "music",
-    "sound"
+    "sound",
+    "speaker"
   ],
   "volume-x": [
     "music",
     "sound",
-    "mute"
+    "mute",
+    "speaker"
+  ],
+  "vote": [
+    "vote",
+    "poll",
+    "ballot",
+    "political",
+    "social",
+    "check",
+    "tick"
   ],
   "wallet": [
     "money",
     "finance",
     "pocket"
+  ],
+  "wallpaper": [
+    "cover",
+    "lock screen"
   ],
   "wand": [
     "magic",
@@ -4336,6 +6121,11 @@
   "wand-2": [
     "magic",
     "wizard"
+  ],
+  "warehouse": [
+    "storage",
+    "logistics",
+    "building"
   ],
   "watch": [
     "clock",
@@ -4373,6 +6163,14 @@
     "intolerance",
     "diet"
   ],
+  "whole-word": [
+    "text",
+    "selection",
+    "letters",
+    "characters",
+    "font",
+    "typography"
+  ],
   "wifi": [
     "connection",
     "signal",
@@ -4408,6 +6206,16 @@
     "allergy",
     "intolerance"
   ],
+  "workflow": [
+    "action",
+    "continuous integration",
+    "ci",
+    "automation",
+    "devops",
+    "network",
+    "node",
+    "connection"
+  ],
   "wrap-text": [
     "words",
     "lines",
@@ -4415,6 +6223,7 @@
     "paragraph"
   ],
   "wrench": [
+    "account",
     "tool",
     "settings",
     "spanner"

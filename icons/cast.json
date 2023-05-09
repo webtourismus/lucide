@@ -1,0 +1,12 @@
+{
+  "$schema": "../icon.schema.json",
+  "tags": [
+    "chromecast",
+    "airplay",
+    "screen"
+  ],
+  "categories": [
+    "devices",
+    "connectivity"
+  ]
+}

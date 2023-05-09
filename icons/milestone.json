@@ -1,0 +1,15 @@
+{
+  "$schema": "../icon.schema.json",
+  "tags": [
+    "sign",
+    "signpost",
+    "direction",
+    "version control"
+  ],
+  "categories": [
+    "arrows",
+    "navigation",
+    "development",
+    "gaming"
+  ]
+}

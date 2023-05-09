@@ -1,0 +1,14 @@
+{
+  "$schema": "../icon.schema.json",
+  "tags": [
+    "contactless",
+    "payment",
+    "near-field communication",
+    "screen"
+  ],
+  "categories": [
+    "communication",
+    "money",
+    "devices"
+  ]
+}

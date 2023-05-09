@@ -1,0 +1,16 @@
+{
+  "$schema": "../icon.schema.json",
+  "tags": [
+    "subtract",
+    "calculate",
+    "maths",
+    "line",
+    "divide",
+    "horizontal rule",
+    "hr"
+  ],
+  "categories": [
+    "maths",
+    "shapes"
+  ]
+}

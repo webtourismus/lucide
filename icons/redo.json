@@ -1,0 +1,12 @@
+{
+  "$schema": "../icon.schema.json",
+  "tags": [
+    "undo",
+    "rerun",
+    "history"
+  ],
+  "categories": [
+    "text",
+    "arrows"
+  ]
+}
