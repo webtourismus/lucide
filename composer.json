@@ -1,6 +1,6 @@
 {
     "name": "webtourismus/lucide",
-    "description": "Mirror of https://www.npmjs.com/package/lucide-static as drupal-library",
+    "description": "Mirror of https://www.npmjs.com/package/lucide-static as drupal-library. SVG files are patched to include icon name as CSS class.",
     "license": "ISC",
     "type": "drupal-library",
     "homepage": "https://lucide.dev/docs/lucide-static"

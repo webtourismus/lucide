@@ -1454,7 +1454,11 @@
     "pending",
     "dot",
     "progress",
-    "issue"
+    "issue",
+    "radio button",
+    "choices",
+    "multiple choice",
+    "choose"
   ],
   "circle-ellipsis": [
     "pending",
@@ -4423,6 +4427,16 @@
   "phone-outgoing": [
     "call"
   ],
+  "pi": [
+    "constant",
+    "code",
+    "coding",
+    "programming",
+    "symbol",
+    "trigonometry",
+    "geometry",
+    "formula"
+  ],
   "picture-in-picture": [
     "display",
     "play",
@@ -5125,7 +5139,9 @@
     "sum",
     "calculate",
     "formula",
-    "maths"
+    "maths",
+    "enumeration",
+    "enumerate"
   ],
   "signal": [
     "connection",
@@ -5774,8 +5790,11 @@
     "statistics"
   ],
   "triangle": [
+    "equilateral",
     "delta",
-    "shape"
+    "shape",
+    "pyramid",
+    "hierarchy"
   ],
   "trophy": [
     "prize",
@@ -6023,6 +6042,18 @@
     "energy",
     "transmission line",
     "telegraph pole"
+  ],
+  "variable": [
+    "code",
+    "coding",
+    "programming",
+    "symbol",
+    "calculate",
+    "algebra",
+    "x",
+    "parentheses",
+    "parenthesis",
+    "brackets"
   ],
   "vegan": [
     "vegetarian",
