@@ -1,4 +1,25 @@
 {
+  "a-arrow-down": [
+    "letter",
+    "font size",
+    "text",
+    "formatting",
+    "smaller"
+  ],
+  "a-arrow-up": [
+    "letter",
+    "font size",
+    "text",
+    "formatting",
+    "larger",
+    "bigger"
+  ],
+  "a-large-small": [
+    "letter",
+    "font size",
+    "text",
+    "formatting"
+  ],
   "accessibility": [
     "disability",
     "disabled",
@@ -6,35 +27,6 @@
     "wheelchair"
   ],
   "activity": [
-    "pulse",
-    "action",
-    "motion",
-    "movement",
-    "exercise",
-    "fitness",
-    "healthcare",
-    "heart rate monitor",
-    "vital signs",
-    "vitals",
-    "emergency room",
-    "er",
-    "intensive care",
-    "hospital",
-    "defibrillator",
-    "earthquake",
-    "siesmic",
-    "magnitude",
-    "richter scale",
-    "aftershock",
-    "tremor",
-    "shockwave",
-    "audio",
-    "waveform",
-    "synthesizer",
-    "synthesiser",
-    "music"
-  ],
-  "activity-square": [
     "pulse",
     "action",
     "motion",
@@ -75,50 +67,43 @@
     "cast",
     "mirroring",
     "screen",
-    "monitor"
+    "monitor",
+    "macos",
+    "osx"
   ],
-  "alarm-check": [
+  "alarm-clock": [
+    "morning"
+  ],
+  "alarm-clock-check": [
     "done",
     "todo",
     "tick",
     "complete",
     "task"
   ],
-  "alarm-clock": [
-    "morning"
+  "alarm-clock-minus": [
+    "remove"
   ],
   "alarm-clock-off": [
     "morning",
     "turn-off"
   ],
-  "alarm-minus": [
-    "remove"
-  ],
-  "alarm-plus": [
+  "alarm-clock-plus": [
     "add"
+  ],
+  "alarm-smoke": [
+    "fire",
+    "alert",
+    "warning",
+    "detector",
+    "carbon monoxide",
+    "safety",
+    "equipment",
+    "amenities"
   ],
   "album": [
     "photo",
     "book"
-  ],
-  "alert-circle": [
-    "warning",
-    "alert",
-    "danger",
-    "exclamation mark"
-  ],
-  "alert-octagon": [
-    "warning",
-    "alert",
-    "danger",
-    "exclamation mark"
-  ],
-  "alert-triangle": [
-    "warning",
-    "alert",
-    "danger",
-    "exclamation mark",
-    "linter"
   ],
   "align-center": [
     "text",
@@ -290,6 +275,18 @@
     "distribute",
     "between"
   ],
+  "ambulance": [
+    "ambulance",
+    "emergency",
+    "medical",
+    "vehicle",
+    "siren",
+    "healthcare",
+    "transportation",
+    "rescue",
+    "urgent",
+    "first aid"
+  ],
   "ampersand": [
     "and",
     "typography",
@@ -341,12 +338,37 @@
     "satellite",
     "cable"
   ],
+  "anvil": [
+    "metal",
+    "iron",
+    "alloy",
+    "materials",
+    "heavy",
+    "weight",
+    "blacksmith",
+    "forge",
+    "acme"
+  ],
   "aperture": [
     "camera",
-    "photo"
+    "photo",
+    "pictures",
+    "shutter",
+    "exposure"
   ],
   "app-window": [
     "application",
+    "menu bar",
+    "pane",
+    "executable"
+  ],
+  "app-window-mac": [
+    "application",
+    "menu bar",
+    "pane",
+    "preferences",
+    "macos",
+    "osx",
     "executable"
   ],
   "apple": [
@@ -378,6 +400,7 @@
   ],
   "area-chart": [
     "statistics",
+    "analytics",
     "diagram",
     "graph",
     "area"
@@ -482,14 +505,6 @@
     "ascending",
     "alphabetical"
   ],
-  "arrow-down-circle": [
-    "backwards",
-    "reverse",
-    "direction",
-    "south",
-    "sign",
-    "button"
-  ],
   "arrow-down-from-line": [
     "backwards",
     "reverse",
@@ -505,21 +520,6 @@
     "south-west",
     "diagonal"
   ],
-  "arrow-down-left-from-circle": [
-    "outwards",
-    "direction",
-    "south-west",
-    "diagonal"
-  ],
-  "arrow-down-left-square": [
-    "direction",
-    "south-west",
-    "diagonal",
-    "sign",
-    "turn",
-    "keyboard",
-    "button"
-  ],
   "arrow-down-narrow-wide": [
     "filter",
     "sort",
@@ -529,30 +529,6 @@
     "direction",
     "south-east",
     "diagonal"
-  ],
-  "arrow-down-right-from-circle": [
-    "outwards",
-    "direction",
-    "south-east",
-    "diagonal"
-  ],
-  "arrow-down-right-square": [
-    "direction",
-    "south-east",
-    "diagonal",
-    "sign",
-    "turn",
-    "keyboard",
-    "button"
-  ],
-  "arrow-down-square": [
-    "backwards",
-    "reverse",
-    "direction",
-    "south",
-    "sign",
-    "keyboard",
-    "button"
   ],
   "arrow-down-to-dot": [
     "direction",
@@ -609,16 +585,6 @@
     "west",
     "<-"
   ],
-  "arrow-left-circle": [
-    "previous",
-    "back",
-    "direction",
-    "west",
-    "sign",
-    "turn",
-    "button",
-    "<-"
-  ],
   "arrow-left-from-line": [
     "previous",
     "back",
@@ -641,16 +607,6 @@
     "<-",
     "->"
   ],
-  "arrow-left-square": [
-    "previous",
-    "back",
-    "direction",
-    "west",
-    "sign",
-    "keyboard",
-    "button",
-    "<-"
-  ],
   "arrow-left-to-line": [
     "previous",
     "back",
@@ -666,16 +622,6 @@
     "next",
     "direction",
     "east",
-    "->"
-  ],
-  "arrow-right-circle": [
-    "next",
-    "forward",
-    "direction",
-    "east",
-    "sign",
-    "turn",
-    "button",
     "->"
   ],
   "arrow-right-from-line": [
@@ -699,16 +645,6 @@
     "reorder",
     "move",
     "<-",
-    "->"
-  ],
-  "arrow-right-square": [
-    "next",
-    "forward",
-    "direction",
-    "west",
-    "sign",
-    "keyboard",
-    "button",
     "->"
   ],
   "arrow-right-to-line": [
@@ -748,13 +684,6 @@
     "ascending",
     "alphabetical"
   ],
-  "arrow-up-circle": [
-    "forward",
-    "direction",
-    "north",
-    "sign",
-    "button"
-  ],
   "arrow-up-down": [
     "bidirectional",
     "two-way",
@@ -791,23 +720,6 @@
     "north-west",
     "diagonal"
   ],
-  "arrow-up-left-from-circle": [
-    "outwards",
-    "direction",
-    "north-west",
-    "diagonal",
-    "keyboard",
-    "button",
-    "escape"
-  ],
-  "arrow-up-left-square": [
-    "direction",
-    "north-west",
-    "diagonal",
-    "sign",
-    "keyboard",
-    "button"
-  ],
   "arrow-up-narrow-wide": [
     "filter",
     "sort",
@@ -817,29 +729,6 @@
     "direction",
     "north-east",
     "diagonal"
-  ],
-  "arrow-up-right-from-circle": [
-    "outwards",
-    "direction",
-    "north-east",
-    "diagonal"
-  ],
-  "arrow-up-right-square": [
-    "direction",
-    "north-east",
-    "diagonal",
-    "sign",
-    "keyboard",
-    "button",
-    "share"
-  ],
-  "arrow-up-square": [
-    "forward",
-    "direction",
-    "north",
-    "sign",
-    "keyboard",
-    "button"
   ],
   "arrow-up-to-line": [
     "forward",
@@ -897,7 +786,59 @@
     "physics",
     "particle",
     "element",
-    "molecule"
+    "molecule",
+    "electricity",
+    "energy",
+    "chemistry"
+  ],
+  "audio-lines": [
+    "graphic equaliser",
+    "sound",
+    "noise",
+    "listen",
+    "hearing",
+    "hertz",
+    "frequency",
+    "wavelength",
+    "vibrate",
+    "sine",
+    "synthesizer",
+    "synthesiser",
+    "levels",
+    "track",
+    "music",
+    "playback",
+    "radio",
+    "broadcast",
+    "airwaves",
+    "voice",
+    "vocals",
+    "singer",
+    "song"
+  ],
+  "audio-waveform": [
+    "sound",
+    "noise",
+    "listen",
+    "hearing",
+    "hertz",
+    "frequency",
+    "wavelength",
+    "vibrate",
+    "sine",
+    "synthesizer",
+    "synthesiser",
+    "levels",
+    "track",
+    "music",
+    "playback",
+    "radio",
+    "broadcast",
+    "airwaves",
+    "voice",
+    "vocals",
+    "singer",
+    "song"
   ],
   "award": [
     "achievement",
@@ -907,7 +848,18 @@
     "winner"
   ],
   "axe": [
-    "hatchet"
+    "hatchet",
+    "weapon",
+    "chop",
+    "sharp",
+    "equipment",
+    "fireman",
+    "firefighter",
+    "brigade",
+    "lumberjack",
+    "woodcutter",
+    "logger",
+    "forestry"
   ],
   "axis-3d": [
     "gizmo",
@@ -1150,36 +1102,43 @@
   ],
   "bar-chart": [
     "statistics",
+    "analytics",
     "diagram",
     "graph"
   ],
   "bar-chart-2": [
     "statistics",
+    "analytics",
     "diagram",
     "graph"
   ],
   "bar-chart-3": [
     "statistics",
+    "analytics",
     "diagram",
     "graph"
   ],
   "bar-chart-4": [
     "statistics",
+    "analytics",
     "diagram",
     "graph"
   ],
   "bar-chart-big": [
     "statistics",
+    "analytics",
     "diagram",
     "graph"
   ],
   "bar-chart-horizontal": [
     "statistics",
+    "analytics",
     "diagram",
     "graph"
   ],
   "bar-chart-horizontal-big": [
     "statistics",
+    "analytics",
     "diagram",
     "graph"
   ],
@@ -1210,36 +1169,42 @@
   "battery": [
     "power",
     "electricity",
+    "energy",
     "accumulator",
     "charge"
   ],
   "battery-charging": [
     "power",
     "electricity",
+    "energy",
     "accumulator",
     "charge"
   ],
   "battery-full": [
     "power",
     "electricity",
+    "energy",
     "accumulator",
     "charge"
   ],
   "battery-low": [
     "power",
     "electricity",
+    "energy",
     "accumulator",
     "charge"
   ],
   "battery-medium": [
     "power",
     "electricity",
+    "energy",
     "accumulator",
     "charge"
   ],
   "battery-warning": [
     "power",
     "electricity",
+    "energy",
     "accumulator",
     "charge",
     "exclamation mark"
@@ -1299,6 +1264,13 @@
     "brewery",
     "drink"
   ],
+  "beer-off": [
+    "alcohol",
+    "bar",
+    "beverage",
+    "brewery",
+    "drink"
+  ],
   "bell": [
     "alarm",
     "notification",
@@ -1311,6 +1283,27 @@
     "sound",
     "reminder",
     "unread"
+  ],
+  "bell-electric": [
+    "fire alarm",
+    "flames",
+    "smoke",
+    "firefighter",
+    "fireman",
+    "department",
+    "brigade",
+    "station",
+    "emergency",
+    "alert",
+    "safety",
+    "school bell",
+    "period break",
+    "recess",
+    "doorbell",
+    "entrance",
+    "entry",
+    "ring",
+    "reception"
   ],
   "bell-minus": [
     "alarm",
@@ -1340,6 +1333,92 @@
     "notification",
     "sound",
     "reminder"
+  ],
+  "between-horizontal-end": [
+    "insert",
+    "add",
+    "left",
+    "slot",
+    "squeeze",
+    "space",
+    "vertical",
+    "grid",
+    "table",
+    "rows",
+    "cells",
+    "excel",
+    "spreadsheet",
+    "accountancy",
+    "data",
+    "enter",
+    "entry",
+    "entries",
+    "blocks",
+    "rectangles",
+    "chevron"
+  ],
+  "between-horizontal-start": [
+    "insert",
+    "add",
+    "right",
+    "slot",
+    "squeeze",
+    "space",
+    "vertical",
+    "grid",
+    "table",
+    "rows",
+    "cells",
+    "excel",
+    "spreadsheet",
+    "accountancy",
+    "data",
+    "enter",
+    "entry",
+    "entries",
+    "blocks",
+    "rectangles",
+    "chevron"
+  ],
+  "between-vertical-end": [
+    "insert",
+    "add",
+    "top",
+    "slot",
+    "squeeze",
+    "space",
+    "vertical",
+    "grid",
+    "table",
+    "columns",
+    "cells",
+    "data",
+    "enter",
+    "entry",
+    "entries",
+    "blocks",
+    "rectangles",
+    "chevron"
+  ],
+  "between-vertical-start": [
+    "insert",
+    "add",
+    "bottom",
+    "slot",
+    "squeeze",
+    "space",
+    "vertical",
+    "grid",
+    "table",
+    "columns",
+    "cells",
+    "data",
+    "enter",
+    "entry",
+    "entries",
+    "blocks",
+    "rectangles",
+    "chevron"
   ],
   "bike": [
     "bicycle",
@@ -1373,6 +1452,26 @@
     "currency",
     "money",
     "payment"
+  ],
+  "blend": [
+    "mode",
+    "overlay",
+    "multiply",
+    "screen",
+    "opacity",
+    "transparency",
+    "alpha",
+    "filters",
+    "lenses",
+    "mixed",
+    "shades",
+    "tints",
+    "hues",
+    "saturation",
+    "brightness",
+    "overlap",
+    "colors",
+    "colours"
   ],
   "blinds": [
     "shades",
@@ -1414,6 +1513,20 @@
     "text",
     "strong",
     "format"
+  ],
+  "bolt": [
+    "nut",
+    "screw",
+    "settings",
+    "preferences",
+    "configuration",
+    "controls",
+    "edit",
+    "diy",
+    "fixed",
+    "build",
+    "contruction",
+    "parts"
   ],
   "bomb": [
     "fatal",
@@ -2072,6 +2185,18 @@
     "chat",
     "assistant"
   ],
+  "bot-message-square": [
+    "robot",
+    "ai",
+    "chat",
+    "assistant"
+  ],
+  "bot-off": [
+    "robot",
+    "ai",
+    "chat",
+    "assistant"
+  ],
   "box": [
     "cube",
     "package",
@@ -2145,11 +2270,35 @@
     "machine learning",
     "computing"
   ],
+  "brick-wall": [
+    "bricks",
+    "mortar",
+    "cement",
+    "materials",
+    "construction",
+    "builder",
+    "labourer",
+    "quantity surveyor",
+    "blocks",
+    "stone"
+  ],
   "briefcase": [
     "work",
     "bag",
     "baggage",
     "folder"
+  ],
+  "briefcase-business": [
+    "work",
+    "bag",
+    "baggage",
+    "folder",
+    "portfolio"
+  ],
+  "briefcase-medical": [
+    "doctor",
+    "medicine",
+    "first aid"
   ],
   "bring-to-front": [
     "bring",
@@ -2165,7 +2314,8 @@
   "brush": [
     "draw",
     "paint",
-    "color"
+    "color",
+    "artist"
   ],
   "bug": [
     "issue",
@@ -2222,6 +2372,7 @@
     "computer",
     "equipment",
     "electricity",
+    "energy",
     "electronics",
     "recharging",
     "charger",
@@ -2282,14 +2433,17 @@
   ],
   "calendar": [
     "date",
-    "birthdate",
+    "month",
+    "year",
+    "event",
     "birthday",
-    "time",
-    "event"
+    "birthdate"
   ],
   "calendar-check": [
     "date",
-    "time",
+    "day",
+    "month",
+    "year",
     "event",
     "confirm",
     "subscribe",
@@ -2302,10 +2456,13 @@
   ],
   "calendar-check-2": [
     "date",
-    "time",
+    "day",
+    "month",
+    "year",
     "event",
     "confirm",
     "subscribe",
+    "schedule",
     "done",
     "todo",
     "tick",
@@ -2314,40 +2471,81 @@
   ],
   "calendar-clock": [
     "date",
-    "time",
+    "day",
+    "month",
+    "year",
     "event",
-    "clock"
+    "clock",
+    "hour"
   ],
   "calendar-days": [
     "date",
-    "time",
+    "month",
+    "year",
     "event"
+  ],
+  "calendar-fold": [
+    "date",
+    "month",
+    "year",
+    "event",
+    "birthday",
+    "birthdate",
+    "ics"
   ],
   "calendar-heart": [
     "date",
-    "time",
+    "month",
+    "year",
     "event",
     "heart",
     "favourite",
-    "subscribe"
+    "subscribe",
+    "valentines day"
   ],
   "calendar-minus": [
     "date",
-    "time",
+    "day",
+    "month",
+    "year",
+    "event",
+    "delete",
+    "remove"
+  ],
+  "calendar-minus-2": [
+    "date",
+    "day",
+    "month",
+    "year",
     "event",
     "delete",
     "remove"
   ],
   "calendar-off": [
     "date",
-    "time",
+    "day",
+    "month",
+    "year",
     "event",
     "delete",
     "remove"
   ],
   "calendar-plus": [
     "date",
-    "time",
+    "day",
+    "month",
+    "year",
+    "event",
+    "add",
+    "subscribe",
+    "create",
+    "new"
+  ],
+  "calendar-plus-2": [
+    "date",
+    "day",
+    "month",
+    "year",
     "event",
     "add",
     "subscribe",
@@ -2356,27 +2554,35 @@
   ],
   "calendar-range": [
     "date",
-    "time",
+    "day",
+    "month",
+    "year",
     "event",
     "range",
     "period"
   ],
   "calendar-search": [
     "date",
-    "time",
-    "search",
-    "events"
+    "day",
+    "month",
+    "year",
+    "events",
+    "search"
   ],
   "calendar-x": [
     "date",
-    "time",
+    "day",
+    "month",
+    "year",
     "event",
     "remove",
     "busy"
   ],
   "calendar-x-2": [
     "date",
-    "time",
+    "day",
+    "month",
+    "year",
     "event",
     "remove"
   ],
@@ -2406,6 +2612,7 @@
     "exchange",
     "hedge fund",
     "statistics",
+    "analytics",
     "diagram",
     "graph"
   ],
@@ -2428,6 +2635,29 @@
     "allergy",
     "intolerance",
     "diet"
+  ],
+  "cannabis": [
+    "cannabis",
+    "weed",
+    "leaf"
+  ],
+  "captions": [
+    "closed captions",
+    "subtitles",
+    "subhead",
+    "transcription",
+    "transcribe",
+    "dialogue",
+    "accessibility"
+  ],
+  "captions-off": [
+    "closed captions",
+    "subtitles",
+    "subhead",
+    "transcription",
+    "transcribe",
+    "dialogue",
+    "accessibility"
   ],
   "car": [
     "vehicle",
@@ -2509,6 +2739,15 @@
     "kitten",
     "feline"
   ],
+  "cctv": [
+    "camera",
+    "surveillance",
+    "recording",
+    "film",
+    "videotape",
+    "crime",
+    "watching"
+  ],
   "check": [
     "done",
     "todo",
@@ -2520,27 +2759,6 @@
     "done",
     "received",
     "double",
-    "todo",
-    "tick",
-    "complete",
-    "task"
-  ],
-  "check-circle": [
-    "done",
-    "todo",
-    "tick",
-    "complete",
-    "task"
-  ],
-  "check-circle-2": [
-    "done",
-    "todo",
-    "tick",
-    "complete",
-    "task"
-  ],
-  "check-square": [
-    "done",
     "todo",
     "tick",
     "complete",
@@ -2562,15 +2780,6 @@
     "slow",
     "dropdown"
   ],
-  "chevron-down-circle": [
-    "back",
-    "menu"
-  ],
-  "chevron-down-square": [
-    "back",
-    "menu",
-    "panel"
-  ],
   "chevron-first": [
     "previous",
     "music"
@@ -2588,25 +2797,6 @@
     "menu",
     "<"
   ],
-  "chevron-left-circle": [
-    "back",
-    "previous",
-    "less than",
-    "fewer",
-    "menu",
-    "<"
-  ],
-  "chevron-left-square": [
-    "back",
-    "previous",
-    "less than",
-    "fewer",
-    "menu",
-    "panel",
-    "button",
-    "keyboard",
-    "<"
-  ],
   "chevron-right": [
     "forward",
     "next",
@@ -2619,29 +2809,6 @@
     "terminal",
     "prompt",
     "shell",
-    ">"
-  ],
-  "chevron-right-circle": [
-    "back",
-    "more than",
-    "greater",
-    "menu",
-    ">"
-  ],
-  "chevron-right-square": [
-    "forward",
-    "next",
-    "more than",
-    "greater",
-    "menu",
-    "panel",
-    "code",
-    "coding",
-    "command line",
-    "terminal",
-    "prompt",
-    "shell",
-    "console",
     ">"
   ],
   "chevron-up": [
@@ -2657,27 +2824,6 @@
     "fast",
     "^",
     "dropdown"
-  ],
-  "chevron-up-circle": [
-    "caret",
-    "ahead",
-    "menu",
-    "^"
-  ],
-  "chevron-up-square": [
-    "caret",
-    "keyboard",
-    "button",
-    "mac",
-    "control",
-    "ctrl",
-    "superscript",
-    "exponential",
-    "power",
-    "ahead",
-    "menu",
-    "panel",
-    "^"
   ],
   "chevrons-down": [
     "backwards",
@@ -2740,6 +2886,113 @@
     "record",
     "shape"
   ],
+  "circle-alert": [
+    "warning",
+    "alert",
+    "danger",
+    "exclamation mark"
+  ],
+  "circle-arrow-down": [
+    "backwards",
+    "reverse",
+    "direction",
+    "south",
+    "sign",
+    "button"
+  ],
+  "circle-arrow-left": [
+    "previous",
+    "back",
+    "direction",
+    "west",
+    "sign",
+    "turn",
+    "button",
+    "<-"
+  ],
+  "circle-arrow-out-down-left": [
+    "outwards",
+    "direction",
+    "south-west",
+    "diagonal"
+  ],
+  "circle-arrow-out-down-right": [
+    "outwards",
+    "direction",
+    "south-east",
+    "diagonal"
+  ],
+  "circle-arrow-out-up-left": [
+    "outwards",
+    "direction",
+    "north-west",
+    "diagonal",
+    "keyboard",
+    "button",
+    "escape"
+  ],
+  "circle-arrow-out-up-right": [
+    "outwards",
+    "direction",
+    "north-east",
+    "diagonal"
+  ],
+  "circle-arrow-right": [
+    "next",
+    "forward",
+    "direction",
+    "east",
+    "sign",
+    "turn",
+    "button",
+    "->"
+  ],
+  "circle-arrow-up": [
+    "forward",
+    "direction",
+    "north",
+    "sign",
+    "button"
+  ],
+  "circle-check": [
+    "done",
+    "todo",
+    "tick",
+    "complete",
+    "task"
+  ],
+  "circle-check-big": [
+    "done",
+    "todo",
+    "tick",
+    "complete",
+    "task"
+  ],
+  "circle-chevron-down": [
+    "back",
+    "menu"
+  ],
+  "circle-chevron-left": [
+    "back",
+    "previous",
+    "less than",
+    "fewer",
+    "menu",
+    "<"
+  ],
+  "circle-chevron-right": [
+    "back",
+    "more than",
+    "greater",
+    "menu",
+    ">"
+  ],
+  "circle-chevron-up": [
+    "caret",
+    "ahead",
+    "menu",
+    "^"
+  ],
   "circle-dashed": [
     "pending",
     "dot",
@@ -2749,6 +3002,12 @@
     "code",
     "coding",
     "version control"
+  ],
+  "circle-divide": [
+    "calculate",
+    "maths",
+    "÷",
+    "/"
   ],
   "circle-dollar-sign": [
     "monetization",
@@ -2780,9 +3039,20 @@
     "version control"
   ],
   "circle-ellipsis": [
-    "pending",
     "ellipsis",
+    "et cetera",
+    "etc",
+    "loader",
+    "loading",
     "progress",
+    "pending",
+    "throbber",
+    "menu",
+    "options",
+    "operator",
+    "code",
+    "spread",
+    "rest",
     "…",
     "..."
   ],
@@ -2790,6 +3060,42 @@
     "calculate",
     "shape",
     "="
+  ],
+  "circle-fading-plus": [
+    "stories",
+    "social media",
+    "instagram",
+    "facebook",
+    "meta",
+    "snapchat",
+    "sharing",
+    "content"
+  ],
+  "circle-gauge": [
+    "dashboard",
+    "dial",
+    "meter",
+    "speed",
+    "pressure",
+    "measure",
+    "level"
+  ],
+  "circle-help": [
+    "question mark"
+  ],
+  "circle-minus": [
+    "subtract",
+    "remove",
+    "decrease",
+    "reduce",
+    "calculate",
+    "line",
+    "operator",
+    "code",
+    "coding",
+    "minimum",
+    "downgrade",
+    "-"
   ],
   "circle-off": [
     "diameter",
@@ -2809,6 +3115,72 @@
     "mistake",
     "wrong",
     "failure"
+  ],
+  "circle-parking": [
+    "parking lot",
+    "car park"
+  ],
+  "circle-parking-off": [
+    "parking lot",
+    "car park",
+    "no parking"
+  ],
+  "circle-pause": [
+    "music",
+    "audio",
+    "stop"
+  ],
+  "circle-percent": [
+    "verified",
+    "unverified",
+    "sale",
+    "discount",
+    "offer",
+    "marketing",
+    "sticker",
+    "price tag"
+  ],
+  "circle-play": [
+    "music",
+    "start",
+    "run"
+  ],
+  "circle-plus": [
+    "add",
+    "new",
+    "increase",
+    "increment",
+    "positive",
+    "calculate",
+    "crosshair",
+    "aim",
+    "target",
+    "scope",
+    "sight",
+    "reticule",
+    "maximum",
+    "upgrade",
+    "extra",
+    "operator",
+    "join",
+    "concatenate",
+    "code",
+    "coding",
+    "+"
+  ],
+  "circle-power": [
+    "on",
+    "off",
+    "device",
+    "switch",
+    "toggle",
+    "binary",
+    "boolean",
+    "reboot",
+    "restart",
+    "button",
+    "keyboard",
+    "troubleshoot"
   ],
   "circle-slash": [
     "diameter",
@@ -2847,6 +3219,36 @@
     "half",
     "split",
     "/"
+  ],
+  "circle-stop": [
+    "media",
+    "music"
+  ],
+  "circle-user": [
+    "person",
+    "account",
+    "contact"
+  ],
+  "circle-user-round": [
+    "person",
+    "account",
+    "contact"
+  ],
+  "circle-x": [
+    "cancel",
+    "close",
+    "delete",
+    "remove",
+    "times",
+    "clear",
+    "error",
+    "incorrect",
+    "wrong",
+    "mistake",
+    "failure",
+    "linter",
+    "multiply",
+    "multiplication"
   ],
   "circuit-board": [
     "computing",
@@ -2889,23 +3291,42 @@
     "copy",
     "paste"
   ],
-  "clipboard-edit": [
-    "edit",
-    "paste",
-    "signature"
-  ],
   "clipboard-list": [
     "copy",
     "paste",
     "tasks"
   ],
+  "clipboard-minus": [
+    "copy",
+    "delete",
+    "remove",
+    "erase",
+    "document",
+    "medical",
+    "report",
+    "doctor"
+  ],
   "clipboard-paste": [
     "copy",
     "paste"
   ],
-  "clipboard-signature": [
+  "clipboard-pen": [
     "paste",
     "signature"
+  ],
+  "clipboard-pen-line": [
+    "paste"
+  ],
+  "clipboard-plus": [
+    "copy",
+    "paste",
+    "add",
+    "create",
+    "new",
+    "document",
+    "medical",
+    "report",
+    "doctor"
   ],
   "clipboard-type": [
     "paste",
@@ -2994,6 +3415,9 @@
     "cluster",
     "network"
   ],
+  "cloud-download": [
+    "import"
+  ],
   "cloud-drizzle": [
     "weather",
     "shower"
@@ -3044,6 +3468,9 @@
     "partly",
     "rainfall"
   ],
+  "cloud-upload": [
+    "file"
+  ],
   "cloudy": [
     "weather",
     "clouds"
@@ -3065,7 +3492,7 @@
     "html",
     "xml"
   ],
-  "code-2": [
+  "code-xml": [
     "source",
     "programming",
     "html",
@@ -3100,11 +3527,92 @@
     "finance",
     "gamble"
   ],
-  "columns": [
-    "split",
+  "columns-2": [
+    "lines",
+    "list",
+    "queue",
+    "preview",
+    "panel",
     "parallel",
+    "series",
+    "split",
     "vertical",
-    "horizontal"
+    "horizontal",
+    "half",
+    "center",
+    "middle",
+    "even",
+    "sidebar",
+    "drawer",
+    "gutter",
+    "fold",
+    "reflow",
+    "typography",
+    "pagination",
+    "pages"
+  ],
+  "columns-3": [
+    "lines",
+    "list",
+    "queue",
+    "preview",
+    "parallel",
+    "series",
+    "split",
+    "vertical",
+    "horizontal",
+    "thirds",
+    "triple",
+    "center",
+    "middle",
+    "alignment",
+    "even",
+    "sidebars",
+    "drawers",
+    "gutters",
+    "fold",
+    "reflow",
+    "typography",
+    "pagination",
+    "pages"
+  ],
+  "columns-4": [
+    "lines",
+    "list",
+    "queue",
+    "preview",
+    "parallel",
+    "series",
+    "split",
+    "vertical",
+    "horizontal",
+    "thirds",
+    "triple",
+    "center",
+    "middle",
+    "alignment",
+    "even",
+    "sidebars",
+    "drawers",
+    "gutters",
+    "fold",
+    "reflow",
+    "typography",
+    "pagination",
+    "pages",
+    "prison",
+    "jail",
+    "bars",
+    "sentence",
+    "police",
+    "cops",
+    "cell",
+    "crime",
+    "criminal",
+    "justice",
+    "law",
+    "enforcement",
+    "grill"
   ],
   "combine": [
     "cubes",
@@ -3178,7 +3686,7 @@
     "listing",
     "networking"
   ],
-  "contact-2": [
+  "contact-round": [
     "user",
     "person",
     "family",
@@ -3207,6 +3715,20 @@
     "privacy",
     "legal",
     "food"
+  ],
+  "cooking-pot": [
+    "pod",
+    "cooking",
+    "recipe",
+    "food",
+    "kitchen",
+    "chef",
+    "restaurant",
+    "dinner",
+    "lunch",
+    "breakfast",
+    "meal",
+    "eat"
   ],
   "copy": [
     "clone",
@@ -3341,7 +3863,12 @@
     "target"
   ],
   "crown": [
+    "diadem",
+    "tiara",
+    "circlet",
+    "corona",
     "king",
+    "ruler",
     "winner",
     "favourite"
   ],
@@ -3447,6 +3974,61 @@
     "playing",
     "cards"
   ],
+  "diamond-minus": [
+    "keyframe",
+    "subtract",
+    "remove",
+    "decrease",
+    "reduce",
+    "calculator",
+    "button",
+    "keyboard",
+    "line",
+    "divider",
+    "separator",
+    "horizontal rule",
+    "hr",
+    "html",
+    "markup",
+    "markdown",
+    "---",
+    "toolbar",
+    "operator",
+    "code",
+    "coding",
+    "minimum",
+    "downgrade"
+  ],
+  "diamond-percent": [
+    "verified",
+    "unverified",
+    "sale",
+    "discount",
+    "offer",
+    "marketing",
+    "sticker",
+    "price tag"
+  ],
+  "diamond-plus": [
+    "keyframe",
+    "add",
+    "new",
+    "increase",
+    "increment",
+    "positive",
+    "calculate",
+    "toolbar",
+    "crosshair",
+    "aim",
+    "target",
+    "scope",
+    "sight",
+    "reticule",
+    "maximum",
+    "upgrade",
+    "extra",
+    "+"
+  ],
   "dice-1": [
     "dice",
     "random",
@@ -3505,6 +4087,7 @@
   "diff": [
     "patch",
     "difference",
+    "compare",
     "plus",
     "minus",
     "plus-minus",
@@ -3513,13 +4096,22 @@
   "disc": [
     "album",
     "music",
+    "songs",
+    "format",
     "cd",
     "dvd",
-    "format",
-    "dj",
+    "vinyl",
+    "sleeve",
+    "cover",
+    "platinum",
+    "compilation",
+    "ep",
+    "recording",
+    "playback",
     "spin",
     "rotate",
-    "rpm"
+    "rpm",
+    "dj"
   ],
   "disc-2": [
     "album",
@@ -3547,24 +4139,32 @@
     "rotate",
     "rpm"
   ],
+  "disc-album": [
+    "album",
+    "music",
+    "songs",
+    "format",
+    "cd",
+    "dvd",
+    "vinyl",
+    "sleeve",
+    "cover",
+    "platinum",
+    "compilation",
+    "ep",
+    "recording",
+    "playback",
+    "spin",
+    "rotate",
+    "rpm",
+    "dj"
+  ],
   "divide": [
     "calculate",
     "maths",
     "division",
     "operator",
     "code",
-    "÷",
-    "/"
-  ],
-  "divide-circle": [
-    "calculate",
-    "maths",
-    "÷",
-    "/"
-  ],
-  "divide-square": [
-    "calculate",
-    "maths",
     "÷",
     "/"
   ],
@@ -3583,6 +4183,17 @@
     "heredity",
     "chromosome",
     "nucleic acid"
+  ],
+  "dock": [
+    "desktop",
+    "applications",
+    "launch",
+    "home",
+    "menu bar",
+    "bottom",
+    "line",
+    "macos",
+    "osx"
   ],
   "dog": [
     "animal",
@@ -3653,9 +4264,6 @@
     "export",
     "save"
   ],
-  "download-cloud": [
-    "import"
-  ],
   "drafting-compass": [
     "geometry",
     "trigonometry",
@@ -3681,6 +4289,16 @@
     "design",
     "social"
   ],
+  "drill": [
+    "power",
+    "bit",
+    "head",
+    "hole",
+    "diy",
+    "toolbox",
+    "build",
+    "construction"
+  ],
   "droplet": [
     "water",
     "weather"
@@ -3689,6 +4307,26 @@
     "water",
     "humidity",
     "weather"
+  ],
+  "drum": [
+    "drummer",
+    "kit",
+    "sticks",
+    "instrument",
+    "beat",
+    "bang",
+    "bass",
+    "backing track",
+    "band",
+    "play",
+    "performance",
+    "concert",
+    "march",
+    "music",
+    "audio",
+    "sound",
+    "noise",
+    "loud"
   ],
   "drumstick": [
     "food",
@@ -3717,6 +4355,50 @@
     "audio",
     "accessibility"
   ],
+  "earth": [
+    "world",
+    "browser",
+    "language",
+    "translate",
+    "globe"
+  ],
+  "earth-lock": [
+    "vpn",
+    "private",
+    "privacy",
+    "network",
+    "world",
+    "browser",
+    "security",
+    "encryption",
+    "protection",
+    "connection"
+  ],
+  "eclipse": [
+    "lunar",
+    "solar",
+    "crescent moon",
+    "sun",
+    "earth",
+    "day",
+    "night",
+    "planet",
+    "space",
+    "mode",
+    "dark",
+    "light",
+    "toggle",
+    "switch",
+    "color",
+    "css",
+    "styles",
+    "display",
+    "accessibility",
+    "contrast",
+    "brightness",
+    "blend",
+    "shade"
+  ],
   "egg": [
     "bird",
     "chicken",
@@ -3740,6 +4422,29 @@
     "vegan",
     "hatched",
     "bad egg"
+  ],
+  "ellipsis": [
+    "et cetera",
+    "etc",
+    "loader",
+    "loading",
+    "progress",
+    "pending",
+    "throbber",
+    "menu",
+    "options",
+    "operator",
+    "code",
+    "coding",
+    "spread",
+    "rest",
+    "…",
+    "..."
+  ],
+  "ellipsis-vertical": [
+    "menu",
+    "options",
+    "..."
   ],
   "equal": [
     "calculate",
@@ -3774,7 +4479,9 @@
     "fullscreen"
   ],
   "external-link": [
-    "outbound"
+    "outbound",
+    "open",
+    "share"
   ],
   "eye": [
     "view",
@@ -3810,6 +4517,17 @@
   ],
   "feather": [
     "logo"
+  ],
+  "fence": [
+    "picket",
+    "panels",
+    "woodwork",
+    "diy",
+    "materials",
+    "suburban",
+    "garden",
+    "property",
+    "territory"
   ],
   "ferris-wheel": [
     "big wheel",
@@ -3870,12 +4588,14 @@
   ],
   "file-bar-chart": [
     "statistics",
+    "analytics",
     "diagram",
     "graph",
     "presentation"
   ],
   "file-bar-chart-2": [
     "statistics",
+    "analytics",
     "diagram",
     "graph",
     "presentation"
@@ -3943,10 +4663,6 @@
     "import",
     "export"
   ],
-  "file-edit": [
-    "edit",
-    "signature"
-  ],
   "file-heart": [
     "heart",
     "favourite",
@@ -3988,6 +4704,7 @@
   ],
   "file-line-chart": [
     "statistics",
+    "analytics",
     "diagram",
     "graph",
     "presentation"
@@ -4011,11 +4728,34 @@
   "file-minus-2": [
     "document"
   ],
+  "file-music": [
+    "audio",
+    "sound",
+    "noise",
+    "track",
+    "digital",
+    "recording",
+    "playback",
+    "piano",
+    "keyboard",
+    "keys",
+    "notes",
+    "chord",
+    "midi",
+    "octave"
+  ],
   "file-output": [
     "document"
   ],
+  "file-pen": [
+    "signature"
+  ],
+  "file-pen-line": [
+    "edit"
+  ],
   "file-pie-chart": [
     "statistics",
+    "analytics",
     "diagram",
     "graph",
     "presentation"
@@ -4054,9 +4794,19 @@
     "find",
     "browser"
   ],
-  "file-signature": [
+  "file-sliders": [
+    "cogged",
+    "gear",
+    "mechanical",
+    "machinery",
+    "configuration",
+    "controls",
+    "preferences",
+    "settings",
+    "system",
+    "admin",
     "edit",
-    "signature"
+    "executable"
   ],
   "file-spreadsheet": [
     "spreadsheet",
@@ -4174,6 +4924,27 @@
     "identity",
     "security"
   ],
+  "fire-extinguisher": [
+    "flames",
+    "smoke",
+    "foam",
+    "water",
+    "spray",
+    "hose",
+    "firefighter",
+    "fireman",
+    "department",
+    "brigade",
+    "station",
+    "emergency",
+    "suppress",
+    "compressed",
+    "tank",
+    "cylinder",
+    "safety",
+    "equipment",
+    "amenities"
+  ],
   "fish": [
     "dish",
     "restaurant",
@@ -4225,7 +4996,17 @@
   ],
   "flame": [
     "fire",
-    "lit"
+    "lit",
+    "burning",
+    "spark",
+    "embers",
+    "smoke",
+    "firefighter",
+    "fireman",
+    "department",
+    "brigade",
+    "station",
+    "emergency"
   ],
   "flame-kindling": [
     "campfire",
@@ -4361,20 +5142,26 @@
     "directory",
     "root",
     "project",
+    "pinned",
     "active",
     "current",
-    "pinned"
+    "cogged",
+    "gear",
+    "mechanical",
+    "machinery",
+    "configuration",
+    "controls",
+    "preferences",
+    "settings",
+    "system",
+    "admin",
+    "edit"
   ],
   "folder-down": [
     "directory",
     "download",
     "import",
     "export"
-  ],
-  "folder-edit": [
-    "directory",
-    "edit",
-    "rename"
   ],
   "folder-git": [
     "directory",
@@ -4456,6 +5243,10 @@
     "import",
     "export"
   ],
+  "folder-pen": [
+    "directory",
+    "rename"
+  ],
   "folder-plus": [
     "directory",
     "add",
@@ -4532,13 +5323,6 @@
     "transport",
     "logistics"
   ],
-  "form-input": [
-    "2fa",
-    "authenticate",
-    "login",
-    "field",
-    "text"
-  ],
   "forward": [
     "send",
     "share",
@@ -4575,12 +5359,6 @@
     "camera",
     "lens",
     "image"
-  ],
-  "function-square": [
-    "programming",
-    "code",
-    "automation",
-    "maths"
   ],
   "gallery-horizontal": [
     "carousel",
@@ -4659,37 +5437,7 @@
     "code",
     "coding"
   ],
-  "gantt-chart-square": [
-    "projects",
-    "manage",
-    "overview",
-    "roadmap",
-    "plan",
-    "intentions",
-    "timeline",
-    "deadline",
-    "date",
-    "event",
-    "range",
-    "period",
-    "productivity",
-    "work",
-    "agile",
-    "code",
-    "coding",
-    "toolbar",
-    "button"
-  ],
   "gauge": [
-    "dashboard",
-    "dial",
-    "meter",
-    "speed",
-    "pressure",
-    "measure",
-    "level"
-  ],
-  "gauge-circle": [
     "dashboard",
     "dial",
     "meter",
@@ -4733,19 +5481,43 @@
   ],
   "git-branch-plus": [
     "add",
-    "create"
+    "create",
+    "+"
   ],
-  "git-commit": [
+  "git-commit-horizontal": [
     "code",
-    "version control"
+    "version control",
+    "waypoint",
+    "stop",
+    "station"
+  ],
+  "git-commit-vertical": [
+    "code",
+    "version control",
+    "waypoint",
+    "stop",
+    "station"
   ],
   "git-compare": [
     "code",
-    "version control"
+    "version control",
+    "diff"
+  ],
+  "git-compare-arrows": [
+    "code",
+    "version control",
+    "diff"
   ],
   "git-fork": [
     "code",
     "version control"
+  ],
+  "git-graph": [
+    "code",
+    "version control",
+    "commit graph",
+    "commits",
+    "gitlens"
   ],
   "git-merge": [
     "code",
@@ -4753,17 +5525,44 @@
   ],
   "git-pull-request": [
     "code",
-    "version control"
+    "version control",
+    "open"
+  ],
+  "git-pull-request-arrow": [
+    "code",
+    "version control",
+    "open"
   ],
   "git-pull-request-closed": [
     "code",
     "version control",
-    "rejected"
+    "rejected",
+    "closed",
+    "cancelled",
+    "x"
+  ],
+  "git-pull-request-create": [
+    "code",
+    "version control",
+    "open",
+    "plus",
+    "add",
+    "+"
+  ],
+  "git-pull-request-create-arrow": [
+    "code",
+    "version control",
+    "open",
+    "plus",
+    "add",
+    "+"
   ],
   "git-pull-request-draft": [
     "code",
     "version control",
-    "draft"
+    "open",
+    "draft",
+    "dashed"
   ],
   "github": [
     "logo",
@@ -4789,11 +5588,17 @@
     "language",
     "translate"
   ],
-  "globe-2": [
+  "globe-lock": [
+    "vpn",
+    "private",
+    "privacy",
+    "network",
     "world",
     "browser",
-    "language",
-    "translate"
+    "security",
+    "encryption",
+    "protection",
+    "connection"
   ],
   "goal": [
     "flag",
@@ -4875,8 +5680,42 @@
     "gather",
     "dashed"
   ],
+  "guitar": [
+    "acoustic",
+    "instrument",
+    "strings",
+    "riff",
+    "rock",
+    "band",
+    "country",
+    "concert",
+    "performance",
+    "play",
+    "lead",
+    "loud",
+    "music",
+    "audio",
+    "sound",
+    "noise"
+  ],
+  "ham": [
+    "food",
+    "pork",
+    "pig",
+    "meat",
+    "bone",
+    "hock",
+    "knuckle",
+    "gammon",
+    "cured"
+  ],
   "hammer": [
-    "mallet"
+    "mallet",
+    "nails",
+    "diy",
+    "toolbox",
+    "build",
+    "construction"
   ],
   "hand": [
     "wave",
@@ -4884,8 +5723,60 @@
     "mouse",
     "grab"
   ],
+  "hand-coins": [
+    "savings",
+    "banking",
+    "money",
+    "finance",
+    "offers",
+    "mortgage",
+    "payment",
+    "received",
+    "wage",
+    "payroll",
+    "allowance",
+    "pocket money",
+    "handout",
+    "pennies"
+  ],
+  "hand-heart": [
+    "love",
+    "like",
+    "emotion"
+  ],
+  "hand-helping": [
+    "agreement",
+    "help",
+    "proposal",
+    "charity",
+    "begging",
+    "terms"
+  ],
   "hand-metal": [
     "rock"
+  ],
+  "hand-platter": [
+    "waiter",
+    "waitress",
+    "restaurant",
+    "table service",
+    "served",
+    "dinner",
+    "dining",
+    "meal",
+    "course",
+    "luxury"
+  ],
+  "handshake": [
+    "agreement",
+    "partnership",
+    "deal",
+    "business",
+    "assistance",
+    "cooperation",
+    "friendship",
+    "union",
+    "terms"
   ],
   "hard-drive": [
     "computer",
@@ -4995,6 +5886,20 @@
     "audio",
     "sound"
   ],
+  "headset": [
+    "music",
+    "audio",
+    "sound",
+    "gaming",
+    "headphones",
+    "headset",
+    "call",
+    "center",
+    "phone",
+    "telephone",
+    "voip",
+    "video"
+  ],
   "heart": [
     "like",
     "love",
@@ -5034,16 +5939,15 @@
     "systole",
     "diastole"
   ],
-  "help-circle": [
-    "question mark"
-  ],
-  "helping-hand": [
-    "agreement",
-    "help",
-    "proposal",
-    "charity",
-    "begging",
-    "terms"
+  "heater": [
+    "heating",
+    "warmth",
+    "comfort",
+    "fire",
+    "stove",
+    "electric",
+    "electronics",
+    "amenities"
   ],
   "hexagon": [
     "shape",
@@ -5084,6 +5988,19 @@
     "intolerance",
     "diet"
   ],
+  "hospital": [
+    "infirmary",
+    "sanatorium",
+    "healthcare",
+    "doctor",
+    "hospice",
+    "clinic",
+    "emergency room",
+    "ward",
+    "building",
+    "medical",
+    "vet"
+  ],
   "hotel": [
     "building",
     "hostel",
@@ -5095,11 +6012,7 @@
     "time",
     "sandglass"
   ],
-  "ice-cream": [
-    "gelato",
-    "food"
-  ],
-  "ice-cream-2": [
+  "ice-cream-bowl": [
     "gelato",
     "food",
     "dessert",
@@ -5108,13 +6021,20 @@
     "course",
     "meal"
   ],
+  "ice-cream-cone": [
+    "gelato",
+    "food"
+  ],
   "image": [
     "picture",
     "photo"
   ],
   "image-down": [
     "picture",
-    "photo"
+    "photo",
+    "download",
+    "save",
+    "export"
   ],
   "image-minus": [
     "remove",
@@ -5124,9 +6044,31 @@
     "picture",
     "photo"
   ],
+  "image-play": [
+    "picture",
+    "gif",
+    "photo"
+  ],
   "image-plus": [
     "add",
     "create"
+  ],
+  "image-up": [
+    "picture",
+    "photo",
+    "upload",
+    "import"
+  ],
+  "images": [
+    "picture",
+    "photo",
+    "multiple",
+    "copy",
+    "gallery",
+    "album",
+    "collection",
+    "slideshow",
+    "showcase"
   ],
   "import": [
     "save"
@@ -5134,7 +6076,11 @@
   "inbox": [
     "email"
   ],
-  "indent": [
+  "indent-decrease": [
+    "text",
+    "tab"
+  ],
+  "indent-increase": [
     "text",
     "tab"
   ],
@@ -5151,6 +6097,14 @@
   ],
   "info": [
     "help"
+  ],
+  "inspection-panel": [
+    "access",
+    "cover",
+    "tile",
+    "metal",
+    "materials",
+    "screws"
   ],
   "instagram": [
     "logo",
@@ -5196,43 +6150,6 @@
     "code",
     "coding"
   ],
-  "kanban-square": [
-    "projects",
-    "manage",
-    "overview",
-    "board",
-    "tickets",
-    "issues",
-    "roadmap",
-    "plan",
-    "intentions",
-    "productivity",
-    "work",
-    "agile",
-    "code",
-    "coding",
-    "toolbar",
-    "button"
-  ],
-  "kanban-square-dashed": [
-    "projects",
-    "manage",
-    "overview",
-    "board",
-    "tickets",
-    "issues",
-    "roadmap",
-    "plan",
-    "intentions",
-    "productivity",
-    "work",
-    "agile",
-    "draft",
-    "template",
-    "boilerplate",
-    "code",
-    "coding"
-  ],
   "key": [
     "password",
     "login",
@@ -5259,6 +6176,37 @@
     "car key"
   ],
   "keyboard": [
+    "layout",
+    "spell",
+    "settings",
+    "mouse"
+  ],
+  "keyboard-music": [
+    "music",
+    "audio",
+    "sound",
+    "noise",
+    "notes",
+    "keys",
+    "chord",
+    "octave",
+    "midi",
+    "controller",
+    "instrument",
+    "electric",
+    "signal",
+    "digital",
+    "studio",
+    "production",
+    "producer",
+    "pianist",
+    "piano",
+    "play",
+    "performance",
+    "concert"
+  ],
+  "keyboard-off": [
+    "unkeys",
     "layout",
     "spell",
     "settings",
@@ -5336,7 +6284,7 @@
     "screen",
     "remote"
   ],
-  "laptop-2": [
+  "laptop-minimal": [
     "computer",
     "screen",
     "remote"
@@ -5387,10 +6335,6 @@
     "copy",
     "duplicate",
     "triple"
-  ],
-  "layout": [
-    "window",
-    "webpage"
   ],
   "layout-dashboard": [
     "masonry",
@@ -5495,31 +6439,6 @@
     "music",
     "package"
   ],
-  "library-square": [
-    "books",
-    "reading",
-    "written",
-    "authors",
-    "stories",
-    "fiction",
-    "novels",
-    "information",
-    "knowledge",
-    "education",
-    "high school",
-    "university",
-    "college",
-    "academy",
-    "learning",
-    "study",
-    "research",
-    "collection",
-    "vinyl",
-    "records",
-    "albums",
-    "music",
-    "package"
-  ],
   "life-buoy": [
     "preserver",
     "life belt",
@@ -5550,6 +6469,7 @@
   ],
   "line-chart": [
     "statistics",
+    "analytics",
     "diagram",
     "graph"
   ],
@@ -5582,6 +6502,21 @@
     "tasks",
     "items",
     "pending"
+  ],
+  "list-collapse": [
+    "items",
+    "collapse",
+    "expand",
+    "details",
+    "disclosure",
+    "show",
+    "hide",
+    "toggle",
+    "accordion",
+    "more",
+    "less",
+    "fold",
+    "unfold"
   ],
   "list-end": [
     "queue",
@@ -5663,7 +6598,7 @@
     "load",
     "wait"
   ],
-  "loader-2": [
+  "loader-circle": [
     "load"
   ],
   "locate": [
@@ -5696,6 +6631,12 @@
     "secure",
     "admin"
   ],
+  "lock-keyhole-open": [
+    "security"
+  ],
+  "lock-open": [
+    "security"
+  ],
   "log-in": [
     "sign in",
     "arrow",
@@ -5722,13 +6663,6 @@
     "luggage",
     "travel",
     "suitcase"
-  ],
-  "m-square": [
-    "metro",
-    "subway",
-    "underground",
-    "track",
-    "line"
   ],
   "magnet": [
     "horseshoe",
@@ -5908,14 +6842,6 @@
     "hamburger",
     "options"
   ],
-  "menu-square": [
-    "bars",
-    "navigation",
-    "hamburger",
-    "options",
-    "menu bar",
-    "panel"
-  ],
   "merge": [
     "combine",
     "join",
@@ -5924,30 +6850,329 @@
   "message-circle": [
     "comment",
     "chat",
-    "conversation"
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble"
+  ],
+  "message-circle-code": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "code review",
+    "coding"
+  ],
+  "message-circle-dashed": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "draft"
+  ],
+  "message-circle-heart": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "positive",
+    "like",
+    "love",
+    "interest",
+    "valentine",
+    "dating",
+    "date",
+    "speech bubble"
+  ],
+  "message-circle-more": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "typing",
+    "writing",
+    "responding",
+    "ellipsis",
+    "etc",
+    "et cetera",
+    "...",
+    "…"
+  ],
+  "message-circle-off": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "clear",
+    "close",
+    "delete",
+    "remove",
+    "cancel",
+    "silence",
+    "mute",
+    "moderate"
+  ],
+  "message-circle-plus": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "add"
+  ],
+  "message-circle-question": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "help"
+  ],
+  "message-circle-reply": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "reply",
+    "response"
+  ],
+  "message-circle-warning": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "report",
+    "abuse",
+    "offense",
+    "alert",
+    "danger",
+    "caution",
+    "protected",
+    "exclamation mark"
+  ],
+  "message-circle-x": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "clear",
+    "close",
+    "delete",
+    "remove",
+    "cancel",
+    "silence",
+    "mute",
+    "moderate"
   ],
   "message-square": [
     "comment",
     "chat",
-    "conversation"
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble"
+  ],
+  "message-square-code": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "code review",
+    "coding"
   ],
   "message-square-dashed": [
     "comment",
     "chat",
     "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
     "draft"
+  ],
+  "message-square-diff": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "add",
+    "patch",
+    "difference",
+    "plus",
+    "minus",
+    "plus-minus",
+    "maths",
+    "code review",
+    "coding",
+    "version control",
+    "git"
+  ],
+  "message-square-dot": [
+    "unread",
+    "unresolved",
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble"
+  ],
+  "message-square-heart": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "positive",
+    "like",
+    "love",
+    "interest",
+    "valentine",
+    "dating",
+    "date",
+    "speech bubble"
+  ],
+  "message-square-more": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "typing",
+    "writing",
+    "responding",
+    "ellipsis",
+    "etc",
+    "et cetera",
+    "...",
+    "…"
+  ],
+  "message-square-off": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "clear",
+    "close",
+    "delete",
+    "remove",
+    "cancel",
+    "silence",
+    "mute",
+    "moderate"
   ],
   "message-square-plus": [
     "comment",
     "chat",
     "conversation",
-    "add",
-    "feedback"
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "add"
+  ],
+  "message-square-quote": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "blockquote",
+    "quotation",
+    "indent",
+    "reply",
+    "response"
+  ],
+  "message-square-reply": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "reply",
+    "response"
+  ],
+  "message-square-share": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "network",
+    "forward"
+  ],
+  "message-square-text": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble"
+  ],
+  "message-square-warning": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "report",
+    "abuse",
+    "offense",
+    "alert",
+    "danger",
+    "caution",
+    "protected",
+    "exclamation mark"
+  ],
+  "message-square-x": [
+    "comment",
+    "chat",
+    "conversation",
+    "dialog",
+    "feedback",
+    "speech bubble",
+    "clear",
+    "close",
+    "delete",
+    "remove",
+    "cancel",
+    "silence",
+    "mute",
+    "moderate"
   ],
   "messages-square": [
     "comment",
     "chat",
     "conversation",
+    "dialog",
+    "feedback",
+    "speech bubbles",
     "copy",
     "multiple"
   ],
@@ -5959,7 +7184,13 @@
     "podcast",
     "microphone"
   ],
-  "mic-2": [
+  "mic-off": [
+    "record",
+    "sound",
+    "mute",
+    "microphone"
+  ],
+  "mic-vocal": [
     "lyrics",
     "voice",
     "listen",
@@ -5969,12 +7200,6 @@
     "podcast",
     "karaoke",
     "singing",
-    "microphone"
-  ],
-  "mic-off": [
-    "record",
-    "sound",
-    "mute",
     "microphone"
   ],
   "microscope": [
@@ -6035,44 +7260,6 @@
     "reduce",
     "negative",
     "calculate",
-    "line",
-    "divider",
-    "separator",
-    "horizontal rule",
-    "hr",
-    "html",
-    "markup",
-    "markdown",
-    "---",
-    "toolbar",
-    "operator",
-    "code",
-    "coding",
-    "minimum",
-    "downgrade"
-  ],
-  "minus-circle": [
-    "subtract",
-    "remove",
-    "decrease",
-    "reduce",
-    "calculate",
-    "line",
-    "operator",
-    "code",
-    "coding",
-    "minimum",
-    "downgrade",
-    "-"
-  ],
-  "minus-square": [
-    "subtract",
-    "remove",
-    "decrease",
-    "reduce",
-    "calculator",
-    "button",
-    "keyboard",
     "line",
     "divider",
     "separator",
@@ -6214,22 +7401,6 @@
     "night",
     "star"
   ],
-  "more-horizontal": [
-    "ellipsis",
-    "menu",
-    "options",
-    "operator",
-    "code",
-    "spread",
-    "rest",
-    "…",
-    "..."
-  ],
-  "more-vertical": [
-    "ellipsis",
-    "menu",
-    "options"
-  ],
   "mountain": [
     "climb",
     "hike",
@@ -6245,6 +7416,12 @@
     "scroll",
     "click"
   ],
+  "mouse-off": [
+    "device",
+    "scroll",
+    "click",
+    "disabled"
+  ],
   "mouse-pointer": [
     "arrow",
     "cursor",
@@ -6259,32 +7436,6 @@
     "arrow",
     "cursor",
     "click"
-  ],
-  "mouse-pointer-square": [
-    "inspector",
-    "element",
-    "mouse",
-    "click",
-    "pointer",
-    "box",
-    "browser",
-    "selector",
-    "target",
-    "dom",
-    "node"
-  ],
-  "mouse-pointer-square-dashed": [
-    "inspector",
-    "element",
-    "mouse",
-    "click",
-    "pointer",
-    "box",
-    "browser",
-    "selector",
-    "target",
-    "dom",
-    "node"
   ],
   "move": [
     "arrows"
@@ -6407,6 +7558,152 @@
     "payment",
     "near-field communication"
   ],
+  "notebook": [
+    "notepad",
+    "notes",
+    "stationery",
+    "sketchbook",
+    "moleskine",
+    "closure",
+    "strap",
+    "band",
+    "elastic",
+    "organizer",
+    "organiser",
+    "planner",
+    "diary",
+    "journal",
+    "writing",
+    "written",
+    "writer",
+    "reading",
+    "high school",
+    "university",
+    "college",
+    "academy",
+    "student",
+    "study",
+    "homework",
+    "research"
+  ],
+  "notebook-pen": [
+    "pencil",
+    "notepad",
+    "notes",
+    "noted",
+    "stationery",
+    "sketchbook",
+    "organizer",
+    "organiser",
+    "planner",
+    "diary",
+    "journal",
+    "writing",
+    "write",
+    "written",
+    "reading",
+    "high school",
+    "university",
+    "college",
+    "academy",
+    "student",
+    "study",
+    "research",
+    "homework",
+    "eraser",
+    "rubber"
+  ],
+  "notebook-tabs": [
+    "notepad",
+    "notes",
+    "people",
+    "family",
+    "friends",
+    "acquaintances",
+    "contacts",
+    "details",
+    "addresses",
+    "phone numbers",
+    "directory",
+    "listing",
+    "networking",
+    "alphabetical",
+    "a-z",
+    "organizer",
+    "organiser",
+    "planner",
+    "diary",
+    "stationery"
+  ],
+  "notebook-text": [
+    "notepad",
+    "notes",
+    "pages",
+    "paper",
+    "stationery",
+    "sketchbook",
+    "organizer",
+    "organiser",
+    "planner",
+    "diary",
+    "journal",
+    "writing",
+    "write",
+    "written",
+    "reading",
+    "high school",
+    "university",
+    "college",
+    "academy",
+    "student",
+    "study",
+    "research",
+    "homework",
+    "lines",
+    "opened"
+  ],
+  "notepad-text": [
+    "notebook",
+    "notes",
+    "pages",
+    "paper",
+    "stationery",
+    "sketchbook",
+    "organizer",
+    "organiser",
+    "planner",
+    "diary",
+    "journal",
+    "writing",
+    "write",
+    "written",
+    "reading",
+    "high school",
+    "university",
+    "college",
+    "academy",
+    "student",
+    "study",
+    "homework",
+    "research",
+    "lines",
+    "opened"
+  ],
+  "notepad-text-dashed": [
+    "notebook",
+    "notes",
+    "pages",
+    "paper",
+    "stationery",
+    "diary",
+    "journal",
+    "writing",
+    "write",
+    "written",
+    "draft",
+    "template",
+    "lines"
+  ],
   "nut": [
     "hazelnut",
     "acorn",
@@ -6425,6 +7722,26 @@
     "stop",
     "shape"
   ],
+  "octagon-alert": [
+    "warning",
+    "alert",
+    "danger",
+    "exclamation mark"
+  ],
+  "octagon-pause": [
+    "music",
+    "audio",
+    "stop"
+  ],
+  "octagon-x": [
+    "delete",
+    "stop",
+    "alert",
+    "warning",
+    "times",
+    "clear",
+    "maths"
+  ],
   "option": [
     "keyboard",
     "key",
@@ -6439,9 +7756,9 @@
     "satellites",
     "moons"
   ],
-  "outdent": [
-    "text",
-    "tab"
+  "origami": [
+    "paper",
+    "bird"
   ],
   "package": [
     "box",
@@ -6508,28 +7825,43 @@
     "fill",
     "paint",
     "bucket",
-    "design"
+    "color",
+    "colour"
+  ],
+  "paint-roller": [
+    "brush",
+    "color",
+    "colour",
+    "decoration",
+    "diy"
   ],
   "paintbrush": [
     "brush",
     "paintbrush",
     "design",
-    "color"
+    "color",
+    "colour",
+    "decoration",
+    "diy"
   ],
   "paintbrush-2": [
     "brush",
     "paintbrush",
     "design",
-    "color"
+    "color",
+    "colour",
+    "decoration",
+    "diy"
   ],
   "palette": [
-    "color",
-    "theme"
-  ],
-  "palmtree": [
-    "vacation",
-    "leisure",
-    "island"
+    "colors",
+    "colours",
+    "theme",
+    "scheme",
+    "paint",
+    "watercolor",
+    "watercolour",
+    "artist"
   ],
   "panel-bottom": [
     "drawer",
@@ -6538,20 +7870,23 @@
   "panel-bottom-close": [
     "drawer",
     "dock",
-    "hide"
+    "hide",
+    "chevron",
+    "down"
   ],
-  "panel-bottom-inactive": [
+  "panel-bottom-dashed": [
     "drawer",
     "dock",
     "show",
-    "reveal",
-    "dashed"
+    "reveal"
   ],
   "panel-bottom-open": [
     "drawer",
     "dock",
     "show",
-    "reveal"
+    "reveal",
+    "chevron",
+    "up"
   ],
   "panel-left": [
     "primary",
@@ -6560,21 +7895,25 @@
   "panel-left-close": [
     "primary",
     "drawer",
-    "hide"
+    "hide",
+    "chevron",
+    "<"
   ],
-  "panel-left-inactive": [
+  "panel-left-dashed": [
     "sidebar",
     "primary",
     "drawer",
     "show",
-    "reveal",
-    "dashed"
+    "reveal"
   ],
   "panel-left-open": [
     "primary",
     "drawer",
     "show",
-    "reveal"
+    "reveal",
+    "chevron",
+    "right",
+    ">"
   ],
   "panel-right": [
     "sidebar",
@@ -6585,46 +7924,72 @@
     "sidebar",
     "secondary",
     "drawer",
-    "hide"
+    "hide",
+    "chevron",
+    ">"
   ],
-  "panel-right-inactive": [
+  "panel-right-dashed": [
     "sidebar",
     "secondary",
     "drawer",
     "show",
-    "reveal",
-    "dashed"
+    "reveal"
   ],
   "panel-right-open": [
     "sidebar",
     "secondary",
     "drawer",
     "show",
-    "reveal"
+    "reveal",
+    "chevron",
+    "left",
+    "<"
   ],
   "panel-top": [
     "drawer",
-    "menu bar",
     "browser",
     "webpage"
   ],
   "panel-top-close": [
     "menu bar",
     "drawer",
-    "hide"
+    "hide",
+    "chevron",
+    "up"
   ],
-  "panel-top-inactive": [
+  "panel-top-dashed": [
     "menu bar",
     "drawer",
     "show",
-    "reveal",
-    "dashed"
+    "reveal"
   ],
   "panel-top-open": [
     "menu bar",
     "drawer",
     "show",
-    "reveal"
+    "reveal",
+    "chevron",
+    "down"
+  ],
+  "panels-left-bottom": [
+    "drawers",
+    "sidebar",
+    "primary"
+  ],
+  "panels-right-bottom": [
+    "drawers",
+    "sidebar",
+    "secondary"
+  ],
+  "panels-top-left": [
+    "menu bar",
+    "sidebar",
+    "primary",
+    "drawers",
+    "window",
+    "webpage",
+    "projects",
+    "overview"
   ],
   "paperclip": [
     "attachment",
@@ -6647,30 +8012,12 @@
     "(",
     ")"
   ],
-  "parking-circle": [
-    "parking lot",
-    "car park"
-  ],
-  "parking-circle-off": [
-    "parking lot",
-    "car park",
-    "no parking"
-  ],
   "parking-meter": [
     "driving",
     "car park",
     "pay",
     "sidewalk",
     "pavement"
-  ],
-  "parking-square": [
-    "parking lot",
-    "car park"
-  ],
-  "parking-square-off": [
-    "parking lot",
-    "car park",
-    "no parking"
   ],
   "party-popper": [
     "emoji",
@@ -6687,16 +8034,6 @@
   ],
   "pause": [
     "music",
-    "stop"
-  ],
-  "pause-circle": [
-    "music",
-    "audio",
-    "stop"
-  ],
-  "pause-octagon": [
-    "music",
-    "audio",
     "stop"
   ],
   "paw-print": [
@@ -6731,22 +8068,6 @@
     "change",
     "create",
     "draw",
-    "writer",
-    "writing",
-    "biro",
-    "ink",
-    "marker",
-    "felt tip",
-    "stationery",
-    "artist"
-  ],
-  "pen-square": [
-    "pencil",
-    "change",
-    "create",
-    "draw",
-    "sketch",
-    "draft",
     "writer",
     "writing",
     "biro",
@@ -6832,36 +8153,6 @@
     "offer",
     "marketing"
   ],
-  "percent-circle": [
-    "verified",
-    "unverified",
-    "sale",
-    "discount",
-    "offer",
-    "marketing",
-    "sticker",
-    "price tag"
-  ],
-  "percent-diamond": [
-    "verified",
-    "unverified",
-    "sale",
-    "discount",
-    "offer",
-    "marketing",
-    "sticker",
-    "price tag"
-  ],
-  "percent-square": [
-    "verified",
-    "unverified",
-    "sale",
-    "discount",
-    "offer",
-    "marketing",
-    "sticker",
-    "price tag"
-  ],
   "person-standing": [
     "people",
     "human",
@@ -6900,15 +8191,34 @@
     "geometry",
     "formula"
   ],
-  "pi-square": [
-    "constant",
-    "code",
-    "coding",
-    "programming",
-    "symbol",
-    "trigonometry",
-    "geometry",
-    "formula"
+  "piano": [
+    "music",
+    "audio",
+    "sound",
+    "noise",
+    "notes",
+    "chord",
+    "keys",
+    "octave",
+    "acoustic",
+    "instrument",
+    "play",
+    "pianist",
+    "performance",
+    "concert"
+  ],
+  "pickaxe": [
+    "mining",
+    "mine",
+    "land worker",
+    "extraction",
+    "labor",
+    "construction",
+    "progress",
+    "advancement",
+    "crafting",
+    "building",
+    "creation"
   ],
   "picture-in-picture": [
     "display",
@@ -6932,6 +8242,7 @@
   ],
   "pie-chart": [
     "statistics",
+    "analytics",
     "diagram",
     "presentation"
   ],
@@ -6950,7 +8261,20 @@
     "prose",
     "symbol"
   ],
-  "pilcrow-square": [
+  "pilcrow-left": [
+    "direction",
+    "paragraph",
+    "mark",
+    "paraph",
+    "blind",
+    "typography",
+    "type",
+    "text",
+    "prose",
+    "symbol"
+  ],
+  "pilcrow-right": [
+    "direction",
     "paragraph",
     "mark",
     "paraph",
@@ -7020,31 +8344,22 @@
     "start",
     "run"
   ],
-  "play-circle": [
-    "music",
-    "start",
-    "run"
-  ],
-  "play-square": [
-    "music",
-    "audio",
-    "video",
-    "start",
-    "run"
-  ],
   "plug": [
     "electricity",
+    "energy",
     "electronics",
     "socket",
     "outlet"
   ],
   "plug-2": [
     "electricity",
+    "energy",
     "socket",
     "outlet"
   ],
   "plug-zap": [
     "electricity",
+    "energy",
     "electronics",
     "charge",
     "charging",
@@ -7053,6 +8368,7 @@
   ],
   "plug-zap-2": [
     "electricity",
+    "energy",
     "electronics",
     "charge",
     "charging",
@@ -7078,50 +8394,6 @@
     "extra",
     "+"
   ],
-  "plus-circle": [
-    "add",
-    "new",
-    "increase",
-    "increment",
-    "positive",
-    "calculate",
-    "crosshair",
-    "aim",
-    "target",
-    "scope",
-    "sight",
-    "reticule",
-    "maximum",
-    "upgrade",
-    "extra",
-    "operator",
-    "join",
-    "concatenate",
-    "code",
-    "coding",
-    "+"
-  ],
-  "plus-square": [
-    "add",
-    "new",
-    "increase",
-    "increment",
-    "positive",
-    "calculate",
-    "calculator",
-    "button",
-    "keyboard",
-    "toolbar",
-    "maximum",
-    "upgrade",
-    "extra",
-    "operator",
-    "join",
-    "concatenate",
-    "code",
-    "coding",
-    "+"
-  ],
   "pocket": [
     "logo",
     "save"
@@ -7137,10 +8409,19 @@
     "corkscrew"
   ],
   "podcast": [
+    "audio",
+    "music",
     "mic",
-    "music"
+    "talk",
+    "voice",
+    "subscribe",
+    "subscription",
+    "stream"
   ],
   "pointer": [
+    "mouse"
+  ],
+  "pointer-off": [
     "mouse"
   ],
   "popcorn": [
@@ -7169,8 +8450,14 @@
     "off",
     "device",
     "switch",
+    "toggle",
+    "binary",
+    "boolean",
     "reboot",
-    "restart"
+    "restart",
+    "button",
+    "keyboard",
+    "troubleshoot"
   ],
   "power-off": [
     "on",
@@ -7210,6 +8497,26 @@
     "meeting",
     "project",
     "planning"
+  ],
+  "proportions": [
+    "screens",
+    "sizes",
+    "rotate",
+    "rotation",
+    "adjust",
+    "aspect ratio",
+    "16:9",
+    "widescreen",
+    "4:3",
+    "resolution",
+    "responsive",
+    "mobile",
+    "desktop",
+    "dimensions",
+    "monitor",
+    "orientation",
+    "portrait",
+    "landscape"
   ],
   "puzzle": [
     "component",
@@ -7269,6 +8576,15 @@
     "element",
     "molecule"
   ],
+  "radical": [
+    "calculate",
+    "formula",
+    "maths",
+    "operator",
+    "root",
+    "square",
+    "symbol"
+  ],
   "radio": [
     "signal",
     "broadcast",
@@ -7326,16 +8642,20 @@
   ],
   "ratio": [
     "screens",
+    "sizes",
     "rotate",
     "rotation",
+    "adjust",
     "aspect ratio",
     "proportions",
     "16:9",
     "widescreen",
     "4:3",
+    "resolution",
     "responsive",
     "mobile",
     "desktop",
+    "dimensions",
     "monitor",
     "orientation",
     "portrait",
@@ -7346,7 +8666,115 @@
     "voucher",
     "slip",
     "check",
-    "counterfoil"
+    "counterfoil",
+    "currency",
+    "dollar",
+    "usd",
+    "$"
+  ],
+  "receipt-cent": [
+    "bill",
+    "voucher",
+    "slip",
+    "check",
+    "counterfoil",
+    "currency",
+    "cents",
+    "dollar",
+    "usd",
+    "$",
+    "¢"
+  ],
+  "receipt-euro": [
+    "bill",
+    "voucher",
+    "slip",
+    "check",
+    "counterfoil",
+    "currency",
+    "€"
+  ],
+  "receipt-indian-rupee": [
+    "bill",
+    "voucher",
+    "slip",
+    "check",
+    "counterfoil",
+    "inr",
+    "₹"
+  ],
+  "receipt-japanese-yen": [
+    "bill",
+    "voucher",
+    "slip",
+    "check",
+    "counterfoil",
+    "jpy",
+    "¥"
+  ],
+  "receipt-pound-sterling": [
+    "bill",
+    "voucher",
+    "slip",
+    "check",
+    "counterfoil",
+    "british",
+    "gbp",
+    "£"
+  ],
+  "receipt-russian-ruble": [
+    "bill",
+    "voucher",
+    "slip",
+    "check",
+    "counterfoil",
+    "rub",
+    "₽"
+  ],
+  "receipt-swiss-franc": [
+    "bill",
+    "voucher",
+    "slip",
+    "check",
+    "counterfoil",
+    "chf",
+    "₣"
+  ],
+  "receipt-text": [
+    "bill",
+    "voucher",
+    "slip",
+    "check",
+    "counterfoil",
+    "details",
+    "small print",
+    "terms",
+    "conditions",
+    "contract"
+  ],
+  "rectangle-ellipsis": [
+    "login",
+    "password",
+    "authenticate",
+    "2fa",
+    "field",
+    "fill",
+    "ellipsis",
+    "et cetera",
+    "etc",
+    "loader",
+    "loading",
+    "progress",
+    "pending",
+    "throbber",
+    "menu",
+    "options",
+    "operator",
+    "code",
+    "spread",
+    "rest",
+    "…",
+    "..."
   ],
   "rectangle-horizontal": [
     "rectangle",
@@ -7494,6 +8922,14 @@
   "rewind": [
     "music"
   ],
+  "ribbon": [
+    "awareness",
+    "strip",
+    "band",
+    "tape",
+    "strap",
+    "cordon"
+  ],
   "rocket": [
     "release",
     "boost",
@@ -7517,7 +8953,8 @@
     "gizmo",
     "transform",
     "orientation",
-    "orbit"
+    "orbit",
+    "axis"
   ],
   "rotate-ccw": [
     "arrow",
@@ -7530,6 +8967,16 @@
     "backup",
     "undo"
   ],
+  "rotate-ccw-square": [
+    "left",
+    "counter-clockwise",
+    "rotate",
+    "image",
+    "90",
+    "45",
+    "degrees",
+    "°"
+  ],
   "rotate-cw": [
     "arrow",
     "right",
@@ -7538,6 +8985,16 @@
     "reload",
     "rerun",
     "redo"
+  ],
+  "rotate-cw-square": [
+    "right",
+    "clockwise",
+    "rotate",
+    "image",
+    "90",
+    "45",
+    "degrees",
+    "°"
   ],
   "route": [
     "path",
@@ -7565,18 +9022,81 @@
     "server",
     "cloud"
   ],
-  "rows": [
-    "split",
+  "rows-2": [
     "lines",
-    "queue",
-    "series",
     "list",
+    "queue",
+    "preview",
+    "panel",
+    "paragraphs",
+    "parallel",
+    "series",
+    "split",
     "vertical",
-    "horizontal"
+    "horizontal",
+    "half",
+    "center",
+    "middle",
+    "even",
+    "drawer"
+  ],
+  "rows-3": [
+    "lines",
+    "list",
+    "queue",
+    "preview",
+    "paragraphs",
+    "parallel",
+    "series",
+    "split",
+    "vertical",
+    "horizontal",
+    "half",
+    "center",
+    "middle",
+    "even",
+    "drawers"
+  ],
+  "rows-4": [
+    "lines",
+    "list",
+    "queue",
+    "preview",
+    "paragraphs",
+    "parallel",
+    "series",
+    "split",
+    "vertical",
+    "horizontal",
+    "half",
+    "center",
+    "middle",
+    "even",
+    "drawers",
+    "grill"
   ],
   "rss": [
     "feed",
-    "subscribe"
+    "subscribe",
+    "news",
+    "updates",
+    "notifications",
+    "content",
+    "blog",
+    "articles",
+    "broadcast",
+    "syndication",
+    "reader",
+    "channels",
+    "posts",
+    "publishing",
+    "digest",
+    "alert",
+    "following",
+    "inbox",
+    "newsletter",
+    "weblog",
+    "podcast"
   ],
   "ruler": [
     "measurements",
@@ -7659,7 +9179,8 @@
   "scale-3d": [
     "gizmo",
     "transform",
-    "size"
+    "size",
+    "axis"
   ],
   "scaling": [
     "scale",
@@ -7760,6 +9281,7 @@
   ],
   "scatter-chart": [
     "statistics",
+    "analytics",
     "diagram",
     "graph"
   ],
@@ -7767,13 +9289,26 @@
     "building",
     "education",
     "childhood",
-    "university"
-  ],
-  "school-2": [
-    "building",
-    "education",
-    "childhood",
-    "university"
+    "university",
+    "learning",
+    "campus",
+    "scholar",
+    "student",
+    "lecture",
+    "degree",
+    "course",
+    "academia",
+    "study",
+    "knowledge",
+    "classroom",
+    "research",
+    "diploma",
+    "graduation",
+    "professor",
+    "tutorial",
+    "homework",
+    "assignment",
+    "exam"
   ],
   "scissors": [
     "cut",
@@ -7791,22 +9326,6 @@
     "crafts",
     "instructions",
     "diagram"
-  ],
-  "scissors-square": [
-    "cut",
-    "snippet",
-    "chop",
-    "stationery",
-    "crafts",
-    "toolbar",
-    "button"
-  ],
-  "scissors-square-dashed-bottom": [
-    "cut",
-    "snippet",
-    "chop",
-    "stationery",
-    "crafts"
   ],
   "screen-share": [
     "host",
@@ -8649,14 +10168,6 @@
     "enumeration",
     "enumerate"
   ],
-  "sigma-square": [
-    "sum",
-    "calculate",
-    "formula",
-    "maths",
-    "enumeration",
-    "enumerate"
-  ],
   "signal": [
     "connection",
     "wireless",
@@ -8761,13 +10272,13 @@
     "scalpel",
     "knife"
   ],
-  "sliders": [
-    "settings",
-    "controls"
-  ],
   "sliders-horizontal": [
     "settings",
     "filters",
+    "controls"
+  ],
+  "sliders-vertical": [
+    "settings",
     "controls"
   ],
   "smartphone": [
@@ -8871,8 +10382,15 @@
     "magic"
   ],
   "speaker": [
+    "sound",
     "audio",
-    "music"
+    "music",
+    "tweeter",
+    "subwoofer",
+    "bass",
+    "production",
+    "producer",
+    "dj"
   ],
   "speech": [
     "disability",
@@ -8905,7 +10423,14 @@
     "linter",
     "a"
   ],
-  "spline": [],
+  "spline": [
+    "path",
+    "pen",
+    "tool",
+    "shape",
+    "curve",
+    "draw"
+  ],
   "split": [
     "break",
     "disband",
@@ -8913,14 +10438,6 @@
     "separate",
     "branch",
     "disunite"
-  ],
-  "split-square-horizontal": [
-    "split",
-    "divide"
-  ],
-  "split-square-vertical": [
-    "split",
-    "divide"
   ],
   "spray-can": [
     "paint",
@@ -8943,6 +10460,135 @@
     "1:1",
     "shape"
   ],
+  "square-activity": [
+    "pulse",
+    "action",
+    "motion",
+    "movement",
+    "exercise",
+    "fitness",
+    "healthcare",
+    "heart rate monitor",
+    "vital signs",
+    "vitals",
+    "emergency room",
+    "er",
+    "intensive care",
+    "hospital",
+    "defibrillator",
+    "earthquake",
+    "siesmic",
+    "magnitude",
+    "richter scale",
+    "aftershock",
+    "tremor",
+    "shockwave",
+    "audio",
+    "waveform",
+    "synthesizer",
+    "synthesiser",
+    "music"
+  ],
+  "square-arrow-down": [
+    "backwards",
+    "reverse",
+    "direction",
+    "south",
+    "sign",
+    "keyboard",
+    "button"
+  ],
+  "square-arrow-down-left": [
+    "direction",
+    "south-west",
+    "diagonal",
+    "sign",
+    "turn",
+    "keyboard",
+    "button"
+  ],
+  "square-arrow-down-right": [
+    "direction",
+    "south-east",
+    "diagonal",
+    "sign",
+    "turn",
+    "keyboard",
+    "button"
+  ],
+  "square-arrow-left": [
+    "previous",
+    "back",
+    "direction",
+    "west",
+    "sign",
+    "keyboard",
+    "button",
+    "<-"
+  ],
+  "square-arrow-out-down-left": [
+    "outwards",
+    "direction",
+    "south-west",
+    "diagonal"
+  ],
+  "square-arrow-out-down-right": [
+    "outwards",
+    "direction",
+    "south-east",
+    "diagonal"
+  ],
+  "square-arrow-out-up-left": [
+    "outwards",
+    "direction",
+    "north-west",
+    "diagonal"
+  ],
+  "square-arrow-out-up-right": [
+    "outwards",
+    "direction",
+    "north-east",
+    "diagonal",
+    "share",
+    "open",
+    "external",
+    "link"
+  ],
+  "square-arrow-right": [
+    "next",
+    "forward",
+    "direction",
+    "west",
+    "sign",
+    "keyboard",
+    "button",
+    "->"
+  ],
+  "square-arrow-up": [
+    "forward",
+    "direction",
+    "north",
+    "sign",
+    "keyboard",
+    "button"
+  ],
+  "square-arrow-up-left": [
+    "direction",
+    "north-west",
+    "diagonal",
+    "sign",
+    "keyboard",
+    "button"
+  ],
+  "square-arrow-up-right": [
+    "direction",
+    "north-east",
+    "diagonal",
+    "sign",
+    "keyboard",
+    "button",
+    "share"
+  ],
   "square-asterisk": [
     "password",
     "secret",
@@ -8953,6 +10599,74 @@
     "glob pattern",
     "wildcard",
     "*"
+  ],
+  "square-bottom-dashed-scissors": [
+    "cut",
+    "snippet",
+    "chop",
+    "stationery",
+    "crafts"
+  ],
+  "square-check": [
+    "done",
+    "todo",
+    "tick",
+    "complete",
+    "task"
+  ],
+  "square-check-big": [
+    "done",
+    "todo",
+    "tick",
+    "complete",
+    "task"
+  ],
+  "square-chevron-down": [
+    "back",
+    "menu",
+    "panel"
+  ],
+  "square-chevron-left": [
+    "back",
+    "previous",
+    "less than",
+    "fewer",
+    "menu",
+    "panel",
+    "button",
+    "keyboard",
+    "<"
+  ],
+  "square-chevron-right": [
+    "forward",
+    "next",
+    "more than",
+    "greater",
+    "menu",
+    "panel",
+    "code",
+    "coding",
+    "command line",
+    "terminal",
+    "prompt",
+    "shell",
+    "console",
+    ">"
+  ],
+  "square-chevron-up": [
+    "caret",
+    "keyboard",
+    "button",
+    "mac",
+    "control",
+    "ctrl",
+    "superscript",
+    "exponential",
+    "power",
+    "ahead",
+    "menu",
+    "panel",
+    "^"
   ],
   "square-code": [
     "gist",
@@ -8980,6 +10694,44 @@
     "code",
     "coding"
   ],
+  "square-dashed-kanban": [
+    "projects",
+    "manage",
+    "overview",
+    "board",
+    "tickets",
+    "issues",
+    "roadmap",
+    "plan",
+    "intentions",
+    "productivity",
+    "work",
+    "agile",
+    "draft",
+    "template",
+    "boilerplate",
+    "code",
+    "coding"
+  ],
+  "square-dashed-mouse-pointer": [
+    "inspector",
+    "element",
+    "mouse",
+    "click",
+    "pointer",
+    "box",
+    "browser",
+    "selector",
+    "target",
+    "dom",
+    "node"
+  ],
+  "square-divide": [
+    "calculate",
+    "maths",
+    "÷",
+    "/"
+  ],
   "square-dot": [
     "git",
     "diff",
@@ -8989,6 +10741,252 @@
   "square-equal": [
     "calculate",
     "="
+  ],
+  "square-function": [
+    "programming",
+    "code",
+    "automation",
+    "maths"
+  ],
+  "square-gantt-chart": [
+    "projects",
+    "manage",
+    "overview",
+    "roadmap",
+    "plan",
+    "intentions",
+    "timeline",
+    "deadline",
+    "date",
+    "event",
+    "range",
+    "period",
+    "productivity",
+    "work",
+    "agile",
+    "code",
+    "coding",
+    "toolbar",
+    "button"
+  ],
+  "square-kanban": [
+    "projects",
+    "manage",
+    "overview",
+    "board",
+    "tickets",
+    "issues",
+    "roadmap",
+    "plan",
+    "intentions",
+    "productivity",
+    "work",
+    "agile",
+    "code",
+    "coding",
+    "toolbar",
+    "button"
+  ],
+  "square-library": [
+    "books",
+    "reading",
+    "written",
+    "authors",
+    "stories",
+    "fiction",
+    "novels",
+    "information",
+    "knowledge",
+    "education",
+    "high school",
+    "university",
+    "college",
+    "academy",
+    "learning",
+    "study",
+    "research",
+    "collection",
+    "vinyl",
+    "records",
+    "albums",
+    "music",
+    "package"
+  ],
+  "square-m": [
+    "metro",
+    "subway",
+    "underground",
+    "track",
+    "line"
+  ],
+  "square-menu": [
+    "bars",
+    "navigation",
+    "hamburger",
+    "options",
+    "menu bar",
+    "panel"
+  ],
+  "square-minus": [
+    "subtract",
+    "remove",
+    "decrease",
+    "reduce",
+    "calculator",
+    "button",
+    "keyboard",
+    "line",
+    "divider",
+    "separator",
+    "horizontal rule",
+    "hr",
+    "html",
+    "markup",
+    "markdown",
+    "---",
+    "toolbar",
+    "operator",
+    "code",
+    "coding",
+    "minimum",
+    "downgrade"
+  ],
+  "square-mouse-pointer": [
+    "inspector",
+    "element",
+    "mouse",
+    "click",
+    "pointer",
+    "box",
+    "browser",
+    "selector",
+    "target",
+    "dom",
+    "node"
+  ],
+  "square-parking": [
+    "parking lot",
+    "car park"
+  ],
+  "square-parking-off": [
+    "parking lot",
+    "car park",
+    "no parking"
+  ],
+  "square-pen": [
+    "pencil",
+    "change",
+    "create",
+    "draw",
+    "sketch",
+    "draft",
+    "writer",
+    "writing",
+    "biro",
+    "ink",
+    "marker",
+    "felt tip",
+    "stationery",
+    "artist"
+  ],
+  "square-percent": [
+    "verified",
+    "unverified",
+    "sale",
+    "discount",
+    "offer",
+    "marketing",
+    "sticker",
+    "price tag"
+  ],
+  "square-pi": [
+    "constant",
+    "code",
+    "coding",
+    "programming",
+    "symbol",
+    "trigonometry",
+    "geometry",
+    "formula"
+  ],
+  "square-pilcrow": [
+    "paragraph",
+    "mark",
+    "paraph",
+    "blind",
+    "typography",
+    "type",
+    "text",
+    "prose",
+    "symbol"
+  ],
+  "square-play": [
+    "music",
+    "audio",
+    "video",
+    "start",
+    "run"
+  ],
+  "square-plus": [
+    "add",
+    "new",
+    "increase",
+    "increment",
+    "positive",
+    "calculate",
+    "calculator",
+    "button",
+    "keyboard",
+    "toolbar",
+    "maximum",
+    "upgrade",
+    "extra",
+    "operator",
+    "join",
+    "concatenate",
+    "code",
+    "coding",
+    "+"
+  ],
+  "square-power": [
+    "on",
+    "off",
+    "device",
+    "switch",
+    "toggle",
+    "binary",
+    "boolean",
+    "reboot",
+    "restart",
+    "button",
+    "keyboard",
+    "troubleshoot"
+  ],
+  "square-radical": [
+    "calculate",
+    "formula",
+    "maths",
+    "operator",
+    "root",
+    "square",
+    "symbol"
+  ],
+  "square-scissors": [
+    "cut",
+    "snippet",
+    "chop",
+    "stationery",
+    "crafts",
+    "toolbar",
+    "button"
+  ],
+  "square-sigma": [
+    "sum",
+    "calculate",
+    "formula",
+    "maths",
+    "enumeration",
+    "enumerate"
   ],
   "square-slash": [
     "git",
@@ -9000,6 +10998,14 @@
     "or",
     "/"
   ],
+  "square-split-horizontal": [
+    "split",
+    "divide"
+  ],
+  "square-split-vertical": [
+    "split",
+    "divide"
+  ],
   "square-stack": [
     "versions",
     "clone",
@@ -9010,6 +11016,36 @@
     "version control",
     "backup",
     "history"
+  ],
+  "square-terminal": [
+    "code",
+    "command line",
+    "prompt",
+    "shell"
+  ],
+  "square-user": [
+    "person",
+    "account",
+    "contact"
+  ],
+  "square-user-round": [
+    "person",
+    "account",
+    "contact"
+  ],
+  "square-x": [
+    "cancel",
+    "close",
+    "delete",
+    "remove",
+    "times",
+    "clear",
+    "maths",
+    "multiply",
+    "multiplication"
+  ],
+  "squircle": [
+    "shape"
   ],
   "squirrel": [
     "animal",
@@ -9078,14 +11114,22 @@
     "feedback"
   ],
   "sticky-note": [
-    "note",
+    "post-it",
     "comment",
+    "annotation",
     "reaction",
-    "memo"
-  ],
-  "stop-circle": [
-    "media",
-    "music"
+    "memo",
+    "reminder",
+    "todo",
+    "task",
+    "idea",
+    "brainstorm",
+    "document",
+    "page",
+    "paper",
+    "sheet",
+    "stationary",
+    "office"
   ],
   "store": [
     "shop",
@@ -9114,11 +11158,6 @@
   ],
   "subscript": [
     "text"
-  ],
-  "subtitles": [
-    "captions",
-    "closed captions",
-    "accessibility"
   ],
   "sun": [
     "brightness",
@@ -9172,6 +11211,23 @@
     "text",
     "exponent"
   ],
+  "swatch-book": [
+    "colors",
+    "colours",
+    "swatches",
+    "pantone",
+    "shades",
+    "tint",
+    "hue",
+    "saturation",
+    "brightness",
+    "theme",
+    "scheme",
+    "palette",
+    "samples",
+    "textile",
+    "carpet"
+  ],
   "swiss-franc": [
     "currency",
     "money",
@@ -9214,6 +11270,25 @@
     "spreadsheet",
     "grid"
   ],
+  "table-cells-merge": [
+    "spreadsheet",
+    "grid",
+    "row"
+  ],
+  "table-cells-split": [
+    "spreadsheet",
+    "grid",
+    "row"
+  ],
+  "table-columns-split": [
+    "spreadsheet",
+    "grid",
+    "cut",
+    "break",
+    "divide",
+    "separate",
+    "segment"
+  ],
   "table-properties": [
     "property list",
     "plist",
@@ -9222,6 +11297,15 @@
     "dictionary",
     "object",
     "hash"
+  ],
+  "table-rows-split": [
+    "spreadsheet",
+    "grid",
+    "cut",
+    "break",
+    "divide",
+    "separate",
+    "segment"
   ],
   "tablet": [
     "device"
@@ -9341,6 +11425,19 @@
     "work",
     "productivity"
   ],
+  "telescope": [
+    "astronomy",
+    "space",
+    "discovery",
+    "exploration",
+    "explore",
+    "vision",
+    "perspective",
+    "focus",
+    "stargazing",
+    "observe",
+    "view"
+  ],
   "tent": [
     "tipi",
     "teepee",
@@ -9371,12 +11468,6 @@
     "prompt",
     "shell"
   ],
-  "terminal-square": [
-    "code",
-    "command line",
-    "prompt",
-    "shell"
-  ],
   "test-tube": [
     "tube",
     "vial",
@@ -9389,7 +11480,7 @@
     "experiment",
     "test"
   ],
-  "test-tube-2": [
+  "test-tube-diagonal": [
     "tube",
     "vial",
     "phial",
@@ -9433,6 +11524,17 @@
     "indent",
     "reply",
     "response"
+  ],
+  "text-search": [
+    "find",
+    "data",
+    "copy",
+    "txt",
+    "pdf",
+    "document",
+    "scan",
+    "magnifier",
+    "magnifying glass"
   ],
   "text-select": [
     "find",
@@ -9485,8 +11587,123 @@
     "entry",
     "pass",
     "voucher",
+    "event",
+    "concert",
+    "show",
     "perforated",
     "dashed"
+  ],
+  "ticket-check": [
+    "entry",
+    "pass",
+    "voucher",
+    "event",
+    "concert",
+    "show",
+    "booked",
+    "purchased",
+    "receipt",
+    "redeemed",
+    "validated",
+    "verified",
+    "certified",
+    "checked",
+    "used"
+  ],
+  "ticket-minus": [
+    "entry",
+    "pass",
+    "voucher",
+    "event",
+    "concert",
+    "show",
+    "remove",
+    "cancel",
+    "unbook",
+    "subtract",
+    "decrease",
+    "-"
+  ],
+  "ticket-percent": [
+    "discount",
+    "reduced",
+    "offer",
+    "voucher",
+    "entry",
+    "pass",
+    "event",
+    "concert",
+    "show",
+    "book",
+    "purchase",
+    "%"
+  ],
+  "ticket-plus": [
+    "entry",
+    "pass",
+    "voucher",
+    "event",
+    "concert",
+    "show",
+    "book",
+    "purchase",
+    "add",
+    "+"
+  ],
+  "ticket-slash": [
+    "entry",
+    "pass",
+    "voucher",
+    "event",
+    "concert",
+    "show",
+    "redeemed",
+    "used",
+    "marked",
+    "checked",
+    "verified",
+    "spoiled",
+    "invalidated",
+    "void",
+    "denied",
+    "refused",
+    "banned",
+    "barred",
+    "forbidden",
+    "prohibited",
+    "cancelled",
+    "cancellation",
+    "refunded",
+    "delete",
+    "remove",
+    "clear",
+    "error"
+  ],
+  "ticket-x": [
+    "entry",
+    "pass",
+    "voucher",
+    "event",
+    "concert",
+    "show",
+    "cancelled",
+    "cancellation",
+    "refunded",
+    "used",
+    "void",
+    "invalidated",
+    "spoiled",
+    "denied",
+    "refused",
+    "banned",
+    "barred",
+    "forbidden",
+    "prohibited",
+    "delete",
+    "remove",
+    "clear",
+    "error",
+    "x"
   ],
   "timer": [
     "time",
@@ -9624,6 +11841,11 @@
     "park",
     "nature"
   ],
+  "tree-palm": [
+    "vacation",
+    "leisure",
+    "island"
+  ],
   "tree-pine": [
     "tree",
     "pine",
@@ -9653,6 +11875,13 @@
     "shape",
     "pyramid",
     "hierarchy"
+  ],
+  "triangle-alert": [
+    "warning",
+    "alert",
+    "danger",
+    "exclamation mark",
+    "linter"
   ],
   "triangle-right": [
     "volume",
@@ -9812,6 +12041,12 @@
     "cluster",
     "separate"
   ],
+  "university": [
+    "building",
+    "education",
+    "childhood",
+    "school"
+  ],
   "unlink": [
     "url",
     "unchain"
@@ -9820,23 +12055,15 @@
     "url",
     "unchain"
   ],
-  "unlock": [
-    "security"
-  ],
-  "unlock-keyhole": [
-    "security"
-  ],
   "unplug": [
     "electricity",
+    "energy",
     "electronics",
     "socket",
     "outlet",
     "disconnect"
   ],
   "upload": [
-    "file"
-  ],
-  "upload-cloud": [
     "file"
   ],
   "usb": [
@@ -9852,11 +12079,6 @@
     "account",
     "contact"
   ],
-  "user-2": [
-    "person",
-    "account",
-    "contact"
-  ],
   "user-check": [
     "followed",
     "subscribed",
@@ -9866,44 +12088,13 @@
     "complete",
     "task"
   ],
-  "user-check-2": [
-    "followed",
-    "subscribed",
-    "done",
-    "todo",
-    "tick",
-    "complete",
-    "task"
-  ],
-  "user-circle": [
-    "person",
-    "account",
-    "contact"
-  ],
-  "user-circle-2": [
-    "person",
-    "account",
-    "contact"
-  ],
   "user-cog": [
     "settings",
     "edit",
     "cog",
     "gear"
   ],
-  "user-cog-2": [
-    "settings",
-    "edit",
-    "cog",
-    "gear"
-  ],
   "user-minus": [
-    "delete",
-    "remove",
-    "unfollow",
-    "unsubscribe"
-  ],
-  "user-minus-2": [
     "delete",
     "remove",
     "unfollow",
@@ -9916,31 +12107,65 @@
     "follow",
     "subscribe"
   ],
-  "user-plus-2": [
+  "user-round": [
+    "person",
+    "account",
+    "contact"
+  ],
+  "user-round-check": [
+    "followed",
+    "subscribed",
+    "done",
+    "todo",
+    "tick",
+    "complete",
+    "task"
+  ],
+  "user-round-cog": [
+    "settings",
+    "edit",
+    "cog",
+    "gear"
+  ],
+  "user-round-minus": [
+    "delete",
+    "remove",
+    "unfollow",
+    "unsubscribe"
+  ],
+  "user-round-plus": [
     "new",
     "add",
     "create",
     "follow",
     "subscribe"
   ],
-  "user-square": [
+  "user-round-search": [
     "person",
     "account",
-    "contact"
+    "contact",
+    "find",
+    "scan",
+    "magnifier",
+    "magnifying glass"
   ],
-  "user-square-2": [
-    "person",
-    "account",
-    "contact"
-  ],
-  "user-x": [
+  "user-round-x": [
     "delete",
     "remove",
     "unfollow",
     "unsubscribe",
     "unavailable"
   ],
-  "user-x-2": [
+  "user-search": [
+    "person",
+    "account",
+    "contact",
+    "find",
+    "scan",
+    "magnifier",
+    "magnifying glass"
+  ],
+  "user-x": [
     "delete",
     "remove",
     "unfollow",
@@ -9951,7 +12176,7 @@
     "group",
     "people"
   ],
-  "users-2": [
+  "users-round": [
     "group",
     "people"
   ],
@@ -9978,7 +12203,8 @@
     "energy",
     "transmission line",
     "telegraph pole",
-    "power lines"
+    "power lines",
+    "phone"
   ],
   "variable": [
     "code",
@@ -9994,6 +12220,19 @@
     "parameter",
     "(",
     ")"
+  ],
+  "vault": [
+    "safe",
+    "lockbox",
+    "deposit",
+    "locker",
+    "coffer",
+    "strongbox",
+    "safety",
+    "secure",
+    "storage",
+    "valuables",
+    "bank"
   ],
   "vegan": [
     "vegetarian",
@@ -10095,10 +12334,6 @@
     "finance",
     "pocket"
   ],
-  "wallet-2": [
-    "finance",
-    "pocket"
-  ],
   "wallet-cards": [
     "money",
     "finance",
@@ -10111,6 +12346,10 @@
     "consumer",
     "cc"
   ],
+  "wallet-minimal": [
+    "finance",
+    "pocket"
+  ],
   "wallpaper": [
     "cover",
     "lock screen"
@@ -10119,14 +12358,25 @@
     "magic",
     "selection"
   ],
-  "wand-2": [
+  "wand-sparkles": [
     "magic",
-    "wizard"
+    "wizard",
+    "magician"
   ],
   "warehouse": [
     "storage",
     "logistics",
     "building"
+  ],
+  "washing-machine": [
+    "tumble dryer",
+    "amenities",
+    "electronics",
+    "cycle",
+    "clothes",
+    "rinse",
+    "spin",
+    "drum"
   ],
   "watch": [
     "clock",
@@ -10162,6 +12412,11 @@
     "security"
   ],
   "webhook": [
+    "push api",
+    "interface",
+    "callback"
+  ],
+  "webhook-off": [
     "push api",
     "interface",
     "callback"
@@ -10244,6 +12499,18 @@
     "node",
     "connection"
   ],
+  "worm": [
+    "invertebrate",
+    "grub",
+    "larva",
+    "snake",
+    "crawl",
+    "wiggle",
+    "slither",
+    "pest control",
+    "computer virus",
+    "malware"
+  ],
   "wrap-text": [
     "words",
     "lines",
@@ -10252,47 +12519,14 @@
   ],
   "wrench": [
     "account",
-    "tool",
     "settings",
-    "spanner"
+    "spanner",
+    "diy",
+    "toolbox",
+    "build",
+    "construction"
   ],
   "x": [
-    "cancel",
-    "close",
-    "delete",
-    "remove",
-    "times",
-    "clear",
-    "maths",
-    "multiply",
-    "multiplication"
-  ],
-  "x-circle": [
-    "cancel",
-    "close",
-    "delete",
-    "remove",
-    "times",
-    "clear",
-    "error",
-    "incorrect",
-    "wrong",
-    "mistake",
-    "failure",
-    "linter",
-    "multiply",
-    "multiplication"
-  ],
-  "x-octagon": [
-    "delete",
-    "stop",
-    "alert",
-    "warning",
-    "times",
-    "clear",
-    "maths"
-  ],
-  "x-square": [
     "cancel",
     "close",
     "delete",
@@ -10312,12 +12546,16 @@
   "zap": [
     "flash",
     "camera",
-    "lightning"
+    "lightning",
+    "electricity",
+    "energy"
   ],
   "zap-off": [
     "flash",
     "camera",
-    "lightning"
+    "lightning",
+    "electricity",
+    "energy"
   ],
   "zoom-in": [
     "magnifying glass",
